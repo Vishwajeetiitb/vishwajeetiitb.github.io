@@ -113,7 +113,7 @@
     <!--/ Intro Skew End /-->
 
     <section id="about" class="about-mf sect-pt4 route">
-      <div class="">
+      <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
@@ -402,7 +402,7 @@
                 <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
               </div>
               <div class="counter-num">
-                <p class="counter">2</p>
+                <p class="counter">36</p>
                 <span class="counter-text">AWARD WON</span>
               </div>
             </div>
@@ -791,84 +791,45 @@
                       </h5>
                     </div>
                     <div id="form">
-                      <form
-                        action=""
-                        method="post"
-                        role="form"
-                        class="contactForm"
-                      >
-                        <div id="sendmessage">
-                          Your message has been sent. Thank you!
-                        </div>
-                        <div id="errormessage"></div>
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input
-                                onclick="window.alert('Sorry I am not able to receive message from website, but you can email to 180110095@iitb.ac.in ')"
-                                type="text"
-                                name="name"
-                                class="form-control"
-                                id="name"
-                                placeholder="Your Name"
-                                data-rule="minlen:4"
-                                data-msg="Please enter at least 4 chars"
-                              />
-                              <div class="validation"></div>
+                      <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+                        <div class="w3-content" style="max-width:600px">
+                          <h4 class="w3-center"><b>Contact Us</b></h4>
+                      
+                          <script type="text/javascript">var submitted=false;</script>
+                          
+                          <!--Update the URL for thank you page on form submit -->
+                          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                          onload="if(submitted) {window.location='https://vishwajeetiitb.github.io/';}"></iframe> 
+                          
+                          <!-- Update the Google forms URL in action-->
+                          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScMvw5fYW5TXU7uaAaCQJw-dIQyQcUSFUEaBaE34vMfUoctTQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+                      
+                            
+                            <div class="w3-section">
+                              <label>Name</label>
+                              <input class="w3-input w3-border" type="text" placeholder="Name" id="name" required name="entry.1697292805">
                             </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input
-                                type="email"
-                                class="form-control"
-                                name="email"
-                                id="email"
-                                placeholder="Your Email"
-                                data-rule="email"
-                                data-msg="Please enter a valid email"
-                              />
-                              <div class="validation"></div>
+                            <div class="w3-section">
+                              <label>Email</label>
+                              <input type="email"
+                              class="form-control"
+                              name="email"
+                              id="email"
+                              placeholder="Your Email"
+                              data-rule="email"
+                              data-msg="Please enter a valid email" id="email" required name="entry.223498707">
                             </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                name="subject"
-                                id="subject"
-                                placeholder="Subject"
-                                data-rule="minlen:4"
-                                data-msg="Please enter at least 8 chars of subject"
-                              />
-                              <div class="validation"></div>
+                            <div class="w3-section">
+                              <label>Phone</label>
+                              <input class="w3-input w3-border" type="text" placeholder="Phone" id="phone" required name="entry.1017978720">
                             </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <textarea
-                                class="form-control"
-                                name="message"
-                                rows="5"
-                                data-rule="required"
-                                data-msg="Please write something for us"
-                                placeholder="Message"
-                              ></textarea>
-                              <div class="validation"></div>
+                      
+                            <div class="w3-section">
+                              <button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">SEND</button>
                             </div>
-                          </div>
-                          <div class="col-md-12">
-                            <button
-                              type="submit"
-                              class="button button-a button-big button-rouded"
-                              id="submit" onclick="window.alert('Sorry I am not able to receive message from website, but you can email to 180110095@iitb.ac.in ')"
-                            >
-                              Send Message
-                            </button>
-                          </div>
-                        </div>
-                      </form>
+                          </form>
+                      </div>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -980,4 +941,90 @@
     <script src="js/main.js"></script>
     <script src="js/main2.js"></script>
   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zero Budget Club - Free Website Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+
+<!-- Start Contact Section -->
+ 
+    <script type="text/javascript">
+    function validateName() {
+            var name = document.getElementById('name').value;
+            if(name.length == 0) {
+              alert("Name can't be blank") ;
+              return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+              alert("Please enter your correct name") ;//Validation Message
+              return false;
+            }
+            return true;
+          }
+
+          function validatePhone() {
+            var phone = document.getElementById('phone').value;
+            if(phone.length == 0) {
+              alert("Phone number can't be blank") ;//Validation Message
+              return false;
+            }
+
+            if(!phone.match(/^[0]?[789]\d{9}$/)) {
+             alert("Please enter a correct phone number") ;//Validation Message
+             return false;
+           }
+
+           return true;
+
+         }
+
+         function validateEmail () {
+
+          var email = document.getElementById('email').value;
+          if(email.length == 0) {
+            alert("Email can't be blank") ;//Validation Message
+            return false;
+
+          }
+
+          if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+            alert("Please enter a correct email address") ;//Validation Message
+            return false;
+
+          }
+
+          return true;
+
+        }
+
+
+        function validateForm() {
+          if (!validateName() || !validatePhone() || !validateEmail()) {
+
+            alert("Form not submitted");//Validation Message
+            return false;
+          }
+          else {
+            submitted=true;
+            return true;
+          }
+        }
+        </script>
+
+<!-- End Contact Section -->
+            
+</body>
 </html>
