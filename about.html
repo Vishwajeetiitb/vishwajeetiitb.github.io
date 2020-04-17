@@ -62,22 +62,24 @@
 
 							
 									
-							
+								<script type="text/javascript">var submitted=false;</script>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+							  onload="if(submitted) {window.location='about.html'; window.onload = window.alert('Thank you for contacting');}"></iframe>
 									<h2 style="text-align: center;">Contact me</h2>
-									<form method="post" action="#">
+									<form id="form_section" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeRN8IGEhRX0vLQGqv6bfITNv_yikHEWfMJrG-0DWJlw_YASA/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
 												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email"class="form-control" name="entry.79686759" id="email" type="email" placeholder = 'Enter email address' />
 											</div>
 											
 											<div class="col-12">
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows=""></textarea>
+												<input class="form-control" name="entry.1830300032" id="subject" type="text" placeholder = 'Enter Subject'>	
 											</div>
 											<div class="col-12">
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"class="form-control w-100" name="entry.500607407" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message' ></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="actions">
@@ -87,6 +89,15 @@
 											</div>
 										</div>
 									</form>
+									<script type="text/javascript">
+  
+										function validateForm() {
+										  
+											submitted=true;
+											return true;
+										  
+										}
+										</script>
 								</section>
 
 								<section>
