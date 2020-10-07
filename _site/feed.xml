@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 10:54:37 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 10:54:37 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 11:51:44 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 11:51:44 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -48,7 +48,7 @@ We choosed Autonomous Indoor Drone Challenge in which we had propose the solutio
                 &lt;img src=&quot;/images/projects/aerov.png&quot; class=&quot;image&quot; style=&quot;max-width: 50%; vertical-align:middle;&quot; alt=&quot;&quot;&gt;
         &lt;/div&gt;
         &lt;h3&gt;About Team Aerov&lt;/h3&gt;
-	&lt;p&gt; Team Aerov is a part of UMIC ( &lt;a href=&quot;https://www.umiciitb.com/&quot;&gt;Umesh Mashruwal Innovation Cell&lt;/a&gt; ), IIT Bombay. 
+	&lt;p&gt; Team Aerov is a part of UMIC ( &lt;a href=&quot;https://www.umiciitb.com/&quot; target=&quot;blank&quot;&gt;Umesh Mashruwal Innovation Cell&lt;/a&gt; ), IIT Bombay. 
         This team focuses on Aerial robots related competition in worldwide. 
         It has already participated in IARC Mission 7 and Barcelona Smart Drone challenge. 
         Currently, it is focusing on IARC Mission 9. The detailed problem statement for IARC Mission 9 can be found &lt;a href=&quot;http://www.aerialroboticscompetition.org/&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;.
