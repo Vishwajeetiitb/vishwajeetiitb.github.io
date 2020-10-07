@@ -19,6 +19,7 @@ crafted by [HTML5 UP](http://html5up.net)
   <link rel="canonical" href="portfolio/projects">
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/overlay.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 <link rel="icon" href="/images/title.png"  style="img {border-radius: 50%;}" type="image/icon type">
   <!-- [if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif] -->
   <!-- [if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif] -->
@@ -106,17 +107,6 @@ crafted by [HTML5 UP](http://html5up.net)
 								</article>
 								<article class="style3">
 									<span class="image">
-										<img src="/images/projects/stride.jpg" alt="" />
-									</span>
-									<a href="/projects/stride">
-										<h2>stride iit bombay</h2>
-										<div class="content">
-											<p>Autonomous all terrain quadraped robot</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
 										<img src="/images/projects/interiit.jpg" alt="" />
 									</span>
 									<a href="generic.html">
@@ -126,6 +116,18 @@ crafted by [HTML5 UP](http://html5up.net)
 										</div>
 									</a>
 								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="/images/projects/stride.jpg" alt="" />
+									</span>
+									<a href="/projects/stride">
+										<h2>stride iit bombay</h2>
+										<div class="content">
+											<p>Autonomous all terrain quadraped robot</p>
+										</div>
+									</a>
+								</article>
+								
 								<article class="style5">
 									<span class="image">
 										<img src="/images/projects/quad.jpg" alt="" />
@@ -253,9 +255,22 @@ crafted by [HTML5 UP](http://html5up.net)
 <script src="/js/jquery.scrolly.min.js"></script>
 <script src="/js/skel.min.js"></script>
 <script src="/js/util.js"></script>
-<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+<!-- [if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif] -->
 <script src="/js/main.js"></script>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script>
+    $(function() {
+        $('.popup-youtube, .popup-vimeo').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false
+        });
+    });
+    </script>
 
     </div>
 
