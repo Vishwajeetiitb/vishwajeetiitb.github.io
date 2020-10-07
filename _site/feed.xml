@@ -8,9 +8,27 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 17:32:41 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 17:32:41 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 19:00:12 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 19:00:12 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Arduino Quadcopter</title>
+        <description>&lt;h3&gt;Arduino Quadcopter from scratch&lt;/h3&gt;
+&lt;p&gt;Every engineer wishes to build a drone at least once in his life. I also dreamed about the same and took a step to make it totally from scratch without any readymade flight controllers.
+    The motivation to build from scratch was to learn PID. I wanted to learn PID and apply it in the real-life. &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;pid&lt;/h3&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad2.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/quad</link>
+        <guid isPermaLink="true">portfolio/projects/quad</guid>
+        
+        
+      </item>
     
       <item>
         <title>Terrace Farming robot</title>
