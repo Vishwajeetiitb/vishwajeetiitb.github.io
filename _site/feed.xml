@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 12:34:21 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 12:34:21 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 13:12:03 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 13:12:03 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -23,10 +23,17 @@ crafted by [HTML5 UP](http://html5up.net)
     &lt;li&gt;Autonomous Stair Climbing Robot.&lt;/li&gt;
 &lt;/ul&gt;
 We chose the Autonomous Indoor Drone Challenge in which we had to propose the solution of drone which will be able to carry 2kgs of load 
-and able to navigate through a series of windows placed in a room
+and able to navigate through a series of windows randomly placed in a room &lt;br&gt; &lt;br&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/d2c/ps.png&quot; class=&quot;image&quot; style=&quot;max-width:100%;&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 
 &lt;h3&gt;Our Solution&lt;/h3&gt;
+&lt;p&gt;
+    I designed the cad model consisting of depth camera (for navigation and localization), computation unit (Rpi4) and bucket (to carry payload).
+    The design was based on the contrains due to size of window through which it has to pass. &lt;br&gt;
+    Here are some images of the design:
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;img src=&quot;/images/projects/d2c.jpg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;
 &lt;/div&gt;
@@ -35,7 +42,7 @@ and able to navigate through a series of windows placed in a room
         &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
         &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
     &lt;/div&gt;
-</description>
+&lt;/p&gt;</description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/d2c</link>
         <guid isPermaLink="true">portfolio/projects/d2c</guid>
