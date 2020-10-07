@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 16:18:39 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 16:18:39 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 17:32:41 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 17:32:41 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -21,12 +21,43 @@ crafted by [HTML5 UP](http://html5up.net)
      &lt;/p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;img src=&quot;/images/projects/interiit/interiit1.jpeg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
-    &lt;a class=&quot;button&quot; href=&quot;/images/projects/interiit/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
+    &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/images/projects/interiit/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;hr&gt;
 
-&lt;h3&gt;Our Solution&lt;/h3&gt;</description>
+&lt;h3&gt;Our robot model&lt;/h3&gt;
+&lt;p&gt;We had to come up with a design which will be compact and can perform given tasks including the climbing mechanism. after a week of brainstorming we came up with a design which includes a lead screw for the climbing mechanism and a rectangular shell around the bot which will perform the task of plowing and cutting. we also include a simple pipe with a funnel for seeding.
+    This idea lead us to stood 2nd in indeation phase. 
+    Here are the pictures illustrating how our bot looks like: &lt;/p&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;climbing mechanism&lt;/h3&gt;
+&lt;p&gt;The climbing mechanism includes series of motions of lead screw and driving wheels which will cause to bot lift up and move forward.
+    Following image will illustrate the overall mechanism :
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/interiit/interiit4.gif&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;final assembly of bot and competition&lt;/h3&gt;
+&lt;p&gt;
+    &lt;div class=&quot;row uniform 50%&quot;&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    After weeks of effort, we could complete the hardware assembly a day before the competition and that&#39;s why we didn&#39;t get time for testing.
+    During the competition, due to electrical failures, we could not perform tasks.
+     Though we didn&#39;t win the competition the overall experience of this project was life-changing for me, 
+     this Tech Meet changed my perspective of thinking in all aspects. Also, the train journey, debugging in the train, 
+     finding tools at late night in place which completely unknown to us was less than an adventure!
+&lt;/p&gt;</description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/interiit</link>
         <guid isPermaLink="true">portfolio/projects/interiit</guid>
