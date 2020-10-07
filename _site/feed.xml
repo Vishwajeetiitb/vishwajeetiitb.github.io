@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 09:46:28 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 09:46:28 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 09:47:46 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 09:47:46 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -26,7 +26,7 @@ crafted by [HTML5 UP](http://html5up.net)
 
 &lt;h3&gt;Our Solution&lt;/h3&gt;
 &lt;p&gt;
-    &lt;img src=&quot;/images/projects/d2c.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;/images/projects/d2c.jpg&quot; class=&quot;image fit&quot; alt=&quot;&quot;&gt;
 &lt;/p&gt;</description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/d2c</link>
