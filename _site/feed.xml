@@ -8,9 +8,31 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 15:30:09 +0530</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 15:30:09 +0530</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2020 16:18:39 +0530</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2020 16:18:39 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Terrace Farming robot</title>
+        <description>&lt;h3&gt;About the Competition&lt;/h3&gt;
+&lt;p&gt;This Competition was held during the 8th Inter IIT Tech Meet. During this meet, different tech competitions are conducted between IITs.
+    One of them was the &quot;DIC&#39;s Terrace Farming Challenge for Hilly areas&quot;.
+    The task was to design an autonomous robot that can climb steps of 40cm and perform basic farming tasks like Cutting, Plucking, etc.
+     &lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/interiit/interiit1.jpeg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+    &lt;a class=&quot;button&quot; href=&quot;/images/projects/interiit/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Our Solution&lt;/h3&gt;</description>
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/interiit</link>
+        <guid isPermaLink="true">portfolio/projects/interiit</guid>
+        
+        
+      </item>
     
       <item>
         <title>Flipkart Robotcs Challenge</title>
