@@ -13,17 +13,17 @@ email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "portfolio" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
+  # twitter: https://twitter.com/<username>
   github: https://github.com/vishwajeetiitb
   linkedin-square: https://linkedin.com/in/vishwajeet-bhagyawant-132650192
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
+  facebook-official: https://www.facebook.com/vishwajeet.bhagyawant.9
+  # google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
-  #instagram:
+  instagram: https://www.instagram.com/vishwajeetbhagyawant/
   #youtube-square:
   #spotify:
-  #stack-overflow:
+  # stack-overflow: https://github.com/vishwajeetiitb
   #vimeo:
   #reddit:
   #stubleupon:
@@ -38,7 +38,7 @@ social:
   #weibo:
   #trello:
   #foursquare:
-  #linux:
+  # linux: 
   #bitbucket-square:
   #vk:
   #slack:
