@@ -56,7 +56,47 @@ layout: landing
 			<p></p>
 		</div>
 	</section>
+	<!-- Start Contact Section -->
+<section class="inner" style="text-align: center;">
+	<div class="w3-content" cl >
+		<h3>Contact me</h3>
+
+		<script type="text/javascript">var submitted = false;</script>
+
+		<!--Update the URL for thank you page on form submit -->
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+			onload="if(submitted) {window.location='http://zerobudget.club/';}"></iframe>
+
+		<!-- Update the Google forms URL in action-->
+		<form
+			action="https://docs.google.com/forms/d/e/1FAIpQLSe-EzABnAeDvf3hbCyro7eChk8XFu2fD3ZPNX4wlL6VVt_hGA/formResponse"
+			method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+
+			<div class="row uniform">
+				<div class="6u 12u$(small)">
+					<input class="w3-input w3-border" type="text" placeholder="Name" id="name" required
+						name="entry.1453602747">
+				</div>
+				<div class="6u 12u$(small)">
+					<input  type="text" placeholder="Email" id="email" required
+						name="entry.30386319">
+				</div>
+				<div class="12u">
+					<input class="w3-input w3-border" type="text" placeholder="Subject" id="name" required
+						name="entry.1461595322">
+				</div>
+				<div class="12u">
+					<textarea id="Message" cols="30" rows="5" placeholder="Message" required
+					name="entry.1441571238"></textarea>
+				</div>
+				<div class="w3-section">
+					<button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">SEND</button>
+				</div>
+			</div>
+		</form>
+	</div>
 </section>
+
 
 <!-- Three -->
 <!-- <section id="three" class="wrapper style3 special">
@@ -108,3 +148,5 @@ layout: landing
 		</ul>
 	</div>
 </section> -->
+
+<!-- Start Contact Section -->
