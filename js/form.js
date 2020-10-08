@@ -58,7 +58,8 @@ function validateForm() {
   //   submitted=true;
   //   return true;
   // }
-  alert("Form submitted")
+  document.getElementById("contact_form").reset();
+  alert("Thanks for contacting!")
   sumbitted = true;
   return true
 }

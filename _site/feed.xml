@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Oct 2020 21:59:18 +0530</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2020 21:59:18 +0530</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2020 22:30:13 +0530</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2020 22:30:13 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -97,7 +97,8 @@ We chose the Autonomous Indoor Drone Challenge in which we had to propose the so
 carry 2kgs of load
 and able to navigate through a series of windows randomly placed in a room &lt;br&gt; &lt;br&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/d2c/ps.png&quot; class=&quot;image&quot; style=&quot;max-width:100%;&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;/images/projects/d2c/ps.png&quot; class=&quot;image&quot; style=&quot;max-width:100%;&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;a href=&quot;/assets/d2c_ps.pdf&quot; class=&quot;button&quot; target=&quot;blank&quot;&gt;View Problem statement&lt;/a&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;hr&gt;
