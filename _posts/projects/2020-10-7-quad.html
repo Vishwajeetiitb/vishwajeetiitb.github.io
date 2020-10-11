@@ -10,7 +10,8 @@ permalink: /projects/quad
 <hr>
 <h3>pid</h3>
 <p>
-    The basic goal of PID is to reach the desired state under given uncertainties. In case of Quadcopter there are uncertainties like wind, center of mass position, etc. You have tune PID parameters to
+    The basic goal of PID is to reach the desired state under given uncertainties. In case of Quadcopter there are
+    uncertainties like wind, center of mass position, etc. You have tune PID parameters to
     obtain optimum results. From the following images, you can get an Intuitive idea of PID
 <div class="row uniform 50%">
     <div class="6u"><span class="image fit"><img src="/images/projects/quad/quad1.png" alt="" /></span></div>
@@ -21,4 +22,21 @@ permalink: /projects/quad
     <a href="/projects/pid_tut" class="button">PID tutorial</a>
 </div>
 </p>
+<hr>
+<h3>2D model approximation for PID testing</h3>
+<p>
+<div style="text-align: center;">
+    <img src="/images/blogs/pid/pid.gif" class="image" style="max-width:50%;" alt=""><br> <br>
+</div>
+Before applying PID on the quadcopter, I had to find an alternative model that will be safer to test so that, I can play
+around with it and see the response of different parameters of PID.
+<br> The 2D model approximation shown in the above image is best to do that. with the help of this model, I could learn
+more about PID and its parameter's response. The one more major learning was to learn how to apply filters like
+complementary filters, Kalman filters to reduce the noise in the gyroscope due to vibrations of the frame.
+you can watch the full video of the model that I made... <br>
+
+</p>
+<div style="text-align: center;">
+    <a class="popup-youtube button" href="https://www.youtube.com/watch?v=TlcQ_J3_AQk">Watch Video</a><br>
+</div>
 <hr>

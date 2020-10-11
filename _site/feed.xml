@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Oct 2020 10:53:41 +0530</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2020 10:53:41 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Oct 2020 21:37:13 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Oct 2020 21:37:13 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -31,7 +31,8 @@ crafted by [HTML5 UP](http://html5up.net)
 &lt;hr&gt;
 &lt;h3&gt;pid&lt;/h3&gt;
 &lt;p&gt;
-    The basic goal of PID is to reach the desired state under given uncertainties. In case of Quadcopter there are uncertainties like wind, center of mass position, etc. You have tune PID parameters to
+    The basic goal of PID is to reach the desired state under given uncertainties. In case of Quadcopter there are
+    uncertainties like wind, center of mass position, etc. You have tune PID parameters to
     obtain optimum results. From the following images, you can get an Intuitive idea of PID
 &lt;div class=&quot;row uniform 50%&quot;&gt;
     &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
@@ -43,7 +44,23 @@ crafted by [HTML5 UP](http://html5up.net)
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-</description>
+&lt;h3&gt;2D model approximation for PID testing&lt;/h3&gt;
+&lt;p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/blogs/pid/pid.gif&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+&lt;/div&gt;
+Before applying PID on the quadcopter, I had to find an alternative model that will be safer to test so that, I can play
+around with it and see the response of different parameters of PID.
+&lt;br&gt; The 2D model approximation shown in the above image is best to do that. with the help of this model, I could learn
+more about PID and its parameter&#39;s response. The one more major learning was to learn how to apply filters like
+complementary filters, Kalman filters to reduce the noise in the gyroscope due to vibrations of the frame.
+you can watch the full video of the model that I made... &lt;br&gt;
+
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;a class=&quot;popup-youtube button&quot; href=&quot;https://www.youtube.com/watch?v=TlcQ_J3_AQk&quot;&gt;Watch Video&lt;/a&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;hr&gt;</description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/quad</link>
         <guid isPermaLink="true">portfolio/projects/quad</guid>
