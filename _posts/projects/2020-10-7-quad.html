@@ -39,4 +39,19 @@ you can watch the full video of the model that I made... <br>
 <div style="text-align: center;">
     <a class="popup-youtube button" href="https://www.youtube.com/watch?v=TlcQ_J3_AQk">Watch Video</a><br>
 </div>
+
 <hr>
+<div style="align-self:center;">
+    <model-viewer id="paused-change-demo" camera-controls autoplay animation-name="Running" ar shadow-intensity="1" src="/images/RobotExpressive.glb" alt="An animated 3D model of a robot"></model-viewer>
+</div>
+<!-- Use it like any other HTML element -->
+<script>
+    (() => {
+      const modelViewer = document.querySelector('#paused-change-demo');
+  
+      self.setInterval(() => {
+        modelViewer.animationName = modelViewer.animationName === 'Running' ?
+          'Wave' : 'Running';
+      }, 1500.0);
+    })();
+    </script>

@@ -120,7 +120,22 @@ you can watch the full video of the model that I made... <br>
 <div style="text-align: center;">
     <a class="popup-youtube button" href="https://www.youtube.com/watch?v=TlcQ_J3_AQk">Watch Video</a><br>
 </div>
+
 <hr>
+<div style="align-self:center;">
+    <model-viewer id="paused-change-demo" camera-controls autoplay animation-name="Running" ar shadow-intensity="1" src="/images/RobotExpressive.glb" alt="An animated 3D model of a robot"></model-viewer>
+</div>
+<!-- Use it like any other HTML element -->
+<script>
+    (() => {
+      const modelViewer = document.querySelector('#paused-change-demo');
+  
+      self.setInterval(() => {
+        modelViewer.animationName = modelViewer.animationName === 'Running' ?
+          'Wave' : 'Running';
+      }, 1500.0);
+    })();
+    </script>
     </div>
   </section>
 
@@ -185,6 +200,9 @@ you can watch the full video of the model that I made... <br>
 <script src="/js/form.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<!-- Import the 3d model library -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 <script>
     $(function() {
         $('.popup-youtube, .popup-vimeo').magnificPopup({
