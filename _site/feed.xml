@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Oct 2020 21:52:35 +0530</pubDate>
-    <lastBuildDate>Sun, 25 Oct 2020 21:52:35 +0530</lastBuildDate>
+    <pubDate>Sun, 25 Oct 2020 21:59:17 +0530</pubDate>
+    <lastBuildDate>Sun, 25 Oct 2020 21:59:17 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -217,7 +217,8 @@ target is to develope actual prototype
         &lt;h3&gt;My contribution : Mechatronics Subsystem&lt;/h3&gt;
         &lt;p&gt;My Current work is to design robotic arm with gripper for performing the tasks given in IARC Mission 9. I have made models for it and now working on optimizing its weight&lt;/p&gt;
 
-         &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/gripper.html&quot;&gt;cad&lt;/a&gt;
+         &lt;embed type=&quot;text/html&quot; src=&quot;/gripper.html&quot; class=&quot;image fit&quot; height=&quot;250&quot;&gt;
+
 </description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/aerov</link>
