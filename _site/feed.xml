@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Oct 2020 17:34:23 +0530</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2020 17:34:23 +0530</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2020 21:18:17 +0530</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2020 21:18:17 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -53,7 +53,7 @@ Before applying PID on the quadcopter, I had to find an alternative model that w
 around with it and see the response of different parameters of PID.
 &lt;br&gt; The 2D model approximation shown in the above image is best to do that. with the help of this model, I could learn
 more about PID and its parameter&#39;s response. The one more major learning was to learn how to apply filters like
-complementary filters, Kalman filters to reduce the noise in the gyroscope due to vibrations of the frame.
+&lt;b&gt;complementary filters, Kalman filters&lt;/b&gt; to reduce the noise in the gyroscope due to vibrations of the frame.
 you can watch the full video of the model that I made... &lt;br&gt;
 
 &lt;/p&gt;
@@ -62,20 +62,39 @@ you can watch the full video of the model that I made... &lt;br&gt;
 &lt;/div&gt;
 
 &lt;hr&gt;
-&lt;div style=&quot;align-self:center;&quot;&gt;
-    &lt;model-viewer id=&quot;paused-change-demo&quot; camera-controls autoplay animation-name=&quot;Running&quot; ar shadow-intensity=&quot;1&quot; src=&quot;/images/RobotExpressive.glb&quot; alt=&quot;An animated 3D model of a robot&quot;&gt;&lt;/model-viewer&gt;
-&lt;/div&gt;
-&lt;!-- Use it like any other HTML element --&gt;
-&lt;script&gt;
-    (() =&gt; {
-      const modelViewer = document.querySelector(&#39;#paused-change-demo&#39;);
-  
-      self.setInterval(() =&gt; {
-        modelViewer.animationName = modelViewer.animationName === &#39;Running&#39; ?
-          &#39;Wave&#39; : &#39;Running&#39;;
-      }, 1500.0);
-    })();
-    &lt;/script&gt;</description>
+&lt;h3&gt;&lt;li&gt;Components and Accessories&lt;/li&gt;&lt;/h3&gt;
+&lt;p&gt;
+    &lt;div class=&quot;box alt&quot;&gt;
+        &lt;div class=&quot;row uniform 50%&quot;&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+
+
+
+&lt;p&gt;
+    &lt;div class=&quot;box alt&quot;&gt;
+        &lt;div class=&quot;row uniform 50%&quot;&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/quad/quad8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    As there was no one to guide me on how to make it properly, I failed too many times. Things went wrong when I started testing. 
+    I harmed my self two times, broke the frame, the battery swelled and I had to replace it 3 times
+&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;h3&gt;&lt;li&gt;Final Results&lt;/li&gt;&lt;/h3&gt;
+&lt;p&gt;
+    After months of efforts I could reach my goal!!!!!
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;a class=&quot;popup-youtube button&quot;
+    href=&quot;/images/projects/quad/hover.mp4&quot;&gt;Watch hover video&lt;/a&gt;&lt;br&gt;&lt;/div&gt;</description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/quad</link>
         <guid isPermaLink="true">portfolio/projects/quad</guid>
