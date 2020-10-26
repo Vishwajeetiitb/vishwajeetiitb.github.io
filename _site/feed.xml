@@ -8,8 +8,8 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Oct 2020 21:18:17 +0530</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2020 21:18:17 +0530</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2020 21:19:04 +0530</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2020 21:19:04 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -205,8 +205,7 @@ and able to navigate through a series of windows randomly placed in a room &lt;b
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;embed type=&quot;text/html&quot; src=&quot;/assets/d2c.html&quot; class=&quot;image fit&quot; height=&quot;250&quot;&gt;
     &lt;!-- &lt;iframe src=&quot;https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; --&gt;
-    &lt;a class=&quot;popup-youtube button&quot;
-        href=&quot;https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview&quot;&gt;Watch simulation video&lt;/a&gt;&lt;br&gt;
+    
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;hr /&gt;
