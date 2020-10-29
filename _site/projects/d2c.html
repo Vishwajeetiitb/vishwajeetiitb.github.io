@@ -129,11 +129,13 @@ and able to navigate through a series of windows randomly placed in a room <br> 
     <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c6.PNG" alt="" /></span></div>
 </div>
 <br>
-<div style="text-align: center; display: none;">
+<div style="text-align: center;"><button class="button" id="toggle" onclick="toggle()">SHOW CAD</button></div>
+<br>
+<div id="cad" style="text-align: center; display: none;">
     <embed type="text/html" src="/assets/d2c.html" class="image fit" height="250">
     <!-- <iframe src="https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview" class="image" style="max-width: 100%;" title="Iframe Example" frameborder="0"></iframe> -->
-    
 </div>
+
 </p>
 <hr />
 <p>
@@ -142,6 +144,22 @@ and able to navigate through a series of windows randomly placed in a room <br> 
 We cracked the simulation Challenge and now we are in national finale!!! only 3 teams got selected for finale. Our next
 target is to develope actual prototype
 </p>
+<script>
+    function toggle() {
+        btn = document.getElementById('toggle');
+        cad = document.getElementById('cad')
+        if(cad.style.display =='none')
+        {
+            cad.style.display = 'block'
+            btn.innerHTML = 'HIDE CAD'
+        }
+        else
+        {
+            cad.style.display = 'none'
+            btn.innerHTML = 'SHOW CAD'
+        }
+    }
+</script>
     </div>
   </section>
 
