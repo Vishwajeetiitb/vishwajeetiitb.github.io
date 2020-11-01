@@ -8,9 +8,40 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Oct 2020 19:25:40 +0530</pubDate>
-    <lastBuildDate>Sat, 31 Oct 2020 19:25:40 +0530</lastBuildDate>
+    <pubDate>Sun, 01 Nov 2020 23:42:06 +0530</pubDate>
+    <lastBuildDate>Sun, 01 Nov 2020 23:42:06 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Cozmo Clench</title>
+        <description>&lt;h3&gt;About Competition: &lt;/h3&gt;
+&lt;p&gt;
+    It was my first competition as a fresher to represent IIT Bombay in any robotic competition. It was organized during
+    &lt;a href=&quot;https://techfest.org/&quot; target=&quot;blank&quot;&gt;TechFest&lt;/a&gt; (Asia&#39;s Largest technical festival).
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Problem Statement:&lt;/h3&gt;
+&lt;p&gt;
+    Your bot is in an arena, where there are some empty spaces. The robot has to grab boxes placed in the same arena and
+    fill those empty spaces.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+        &lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/cozmo/cozmo1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/Cozmo-Clench.pdf&quot;&gt;View Full Problem Statement&lt;/a&gt;
+
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;My bot!&lt;/h3&gt;
+&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
+    &lt;h4&gt;Simulation Video&lt;/h4&gt;
+    &lt;iframe src=&quot;https://youtube.com/embed/pMcU77L2mfw&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/cozmo</link>
+        <guid isPermaLink="true">portfolio/projects/cozmo</guid>
+        
+        
+      </item>
     
       <item>
         <title>Team Stride</title>
