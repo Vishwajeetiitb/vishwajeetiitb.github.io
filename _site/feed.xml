@@ -8,47 +8,259 @@ crafted by [HTML5 UP](http://html5up.net)
 </description>
     <link>portfolio/</link>
     <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Dec 2020 10:02:35 +0530</pubDate>
-    <lastBuildDate>Wed, 09 Dec 2020 10:02:35 +0530</lastBuildDate>
+    <pubDate>Tue, 15 Dec 2020 22:26:48 +0530</pubDate>
+    <lastBuildDate>Tue, 15 Dec 2020 22:26:48 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Cozmo Clench</title>
-        <description>&lt;h3&gt;About Competition: &lt;/h3&gt;
-&lt;p&gt;
-    It was my first competition as a fresher to represent IIT Bombay in any robotic competition. It was organized during
-    &lt;a href=&quot;https://techfest.org/&quot; target=&quot;blank&quot;&gt;TechFest&lt;/a&gt; (Asia&#39;s Largest technical festival).
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Problem Statement:&lt;/h3&gt;
-&lt;p&gt;
-    Your bot is in an arena, where there are some empty spaces. The robot has to grab boxes placed in the same arena and
-    fill those empty spaces.
-    &lt;div style=&quot;text-align: center;&quot;&gt;
-        &lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/cozmo/cozmo1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-        &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/Cozmo-Clench.pdf&quot;&gt;View Full Problem Statement&lt;/a&gt;
+        <title>Research Project</title>
+        <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;header&gt;
+        &lt;!-- &lt;h2&gt;Multi Agent Patrolling&lt;/h2&gt; --&gt;
+        &lt;p&gt;Guides: &lt;a href=&quot;https://www.sc.iitb.ac.in/~leena/&quot;&gt;Prof. Leena Vachhani&lt;/a&gt; &amp; &lt;a
+                href=&quot;https://www.sc.iitb.ac.in/~asinha/&quot;&gt;Prof. Arpita Sinha&lt;/a&gt;&lt;/p&gt;
+    &lt;/header&gt;
+&lt;/div&gt;
 
-    &lt;/div&gt;
+&lt;h3&gt;Project Description:&lt;/h3&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;span class=&quot;image right&quot;&gt;&lt;img src=&quot;/images/projects/pat/pat.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+Patrolling means the act of walking or traveling around an area, at regular intervals, to protect or supervise it. Given a graph, the patrolling task refers to continuously visiting all the graph nodes to minimize the time lag between two visits. We have to design an automated patrolling system with multiple agents to monitor a given environment with nodes of interest of varying priorities. A group of students is working on the simulation part of this project, provided by the DRDO, India. They will do the hardware aspect of this project. This project&#39;s main objective is to prevent the innocent lives of many soldiers who are at the borders working at their top edge and died while patrolling manually. So, instead of them, an autonomous car will do this task and keep a keen observation of the enemies&#39; movement.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h3&gt;My Learnings &amp; Contribution till date:&lt;/h3&gt;
+&lt;p&gt;
+    &lt;li&gt;Studied and tested various algorithms for multi-agent patrolling 
+        on the SUMO platform using research papers&lt;/li&gt;
+        &lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Following graphs are related to node visit time&lt;/b&gt;&lt;/div&gt;
+        &lt;div class=&quot;row uniform 50%&quot;&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/images/projects/pat/cr1.png&quot; alt=&quot;&quot; /&gt; patrolling with one car&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/images/projects/pat/cr6.png&quot; alt=&quot;&quot; /&gt;patrolling with six cars&lt;/span&gt;&lt;/div&gt;
+            &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/images/projects/pat/cr10.png&quot; alt=&quot;&quot; /&gt;patrolling with ten cars&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;li&gt;This project gave me an insight into Reinforcement Learning.
+        I created an algorithm for decision making based on RL Techniques and tested it on platforms like MIT
+        DeepTraffic Simulator and Unity ML-Agents.
+        This algorithm helps in making decisions like accelerating, decelerating, left &amp; right based on the surrounding
+    &lt;/li&gt;
+    &lt;br&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/pat/pat2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/pat/pat3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;li&gt;Designed algorithm for path planning for the car at the junction of the road&lt;/li&gt; &lt;br&gt;
+&lt;li&gt;During my learning period, I applied the RL method &lt;b&gt;using ROS and gazebo&lt;/b&gt; and simulated a self-balancing
+    inverse pendulum,
+    which learns to balance itself from previous experience&lt;/li&gt;
+&lt;br&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/pat/pat4.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/pat/pat5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;My bot!&lt;/h3&gt;
-&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
-    &lt;h4&gt;Simulation Video&lt;/h4&gt;
-    &lt;iframe src=&quot;https://youtube.com/embed/pMcU77L2mfw&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
-        <pubDate>Sun, 01 Nov 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/cozmo</link>
-        <guid isPermaLink="true">portfolio/projects/cozmo</guid>
+&lt;h3&gt;Future Work:&lt;/h3&gt;
+&lt;p&gt;
+    &lt;li&gt;Implementing patrolling algorithms on &lt;b&gt;IoT&lt;/b&gt; platforms&lt;/li&gt;
+    &lt;li&gt;Design the patrolling algorithm using Deep Q Network Reinforcement learning technique with GBLA architecture&lt;/li&gt;
+    &lt;li&gt;Incorporate the effect of priority nodes in the map while maneuvering&lt;/li&gt;
+    &lt;li&gt;Improve the results of Conscientious Reactive in case of larger number of cars in assymetrical grids.&lt;/li&gt;
+&lt;/p&gt;</description>
+        <pubDate>Sat, 31 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/patrolling</link>
+        <guid isPermaLink="true">portfolio/projects/patrolling</guid>
         
         
       </item>
     
       <item>
-        <title>Team Stride</title>
-        <description></description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/stride</link>
-        <guid isPermaLink="true">portfolio/projects/stride</guid>
+        <title>Terrace Farming robot</title>
+        <description>&lt;h3&gt;About the Competition&lt;/h3&gt;
+&lt;p&gt;This Competition was held during the 8th Inter IIT Tech Meet. During this meet, different tech competitions are conducted between IITs.
+    One of them was the &quot;DIC&#39;s Terrace Farming Challenge for Hilly areas&quot;.
+    The task was to design an autonomous robot that can climb steps of 40cm and perform basic farming tasks like Cutting, Plucking, etc.
+     &lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/interiit/interiit1.jpeg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+    &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Our robot model&lt;/h3&gt;
+&lt;p&gt;We had to come up with a design which will be compact and can perform given tasks including the climbing mechanism. after a week of brainstorming we came up with a design which includes a lead screw for the climbing mechanism and a rectangular shell around the bot which will perform the task of plowing and cutting. we also include a simple pipe with a funnel for seeding.
+    This idea lead us to stood 2nd in indeation phase. 
+    Here are the pictures illustrating how our bot looks like: &lt;/p&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;climbing mechanism&lt;/h3&gt;
+&lt;p&gt;The climbing mechanism includes series of motions of lead screw and driving wheels which will cause to bot lift up and move forward.
+    Following image will illustrate the overall mechanism :
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/interiit/interiit4.gif&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;final assembly of bot and competition&lt;/h3&gt;
+&lt;p&gt;
+    &lt;div class=&quot;row uniform 50%&quot;&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    After weeks of effort, we could complete the hardware assembly a day before the competition and that&#39;s why we didn&#39;t get time for testing.
+    During the competition, due to electrical failures, we could not perform tasks.
+     Though we didn&#39;t win the competition the overall experience of this project was life-changing for me, 
+     this Tech Meet changed my perspective of thinking in all aspects. Also, the train journey, debugging in the train, 
+     finding tools at late night in place which completely unknown to us was less than an adventure!
+&lt;/p&gt;</description>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/interiit</link>
+        <guid isPermaLink="true">portfolio/projects/interiit</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Flipkart Robotcs Challenge</title>
+        <description>&lt;h3&gt;About Flipkart Grid 2.0 - Robotcs Challenge&lt;/h3&gt;
+&lt;p&gt;During the pandemic period, Flipkart conducted an interesting competition for robotics enthusiasts under Flipkart
+    Grid 2.0. There were three problem statements :
+&lt;ul&gt;
+    &lt;li&gt;Intelligent Picking&lt;/li&gt;
+    &lt;li&gt;Autonomous Indoor Drone&lt;/li&gt;
+    &lt;li&gt;Autonomous Stair Climbing Robot.&lt;/li&gt;
+&lt;/ul&gt;
+We chose the Autonomous Indoor Drone Challenge in which we had to propose the solution of drone which will be able to
+carry 2kgs of load
+and able to navigate through a series of windows randomly placed in a room &lt;br&gt; &lt;br&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/d2c/ps.png&quot; class=&quot;image&quot; style=&quot;max-width:100%;&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;a href=&quot;/assets/d2c_ps.pdf&quot; class=&quot;button&quot; target=&quot;blank&quot;&gt;View Problem statement&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Our Solution&lt;/h3&gt;
+&lt;p&gt;
+    I designed the cad model consisting of depth camera (for navigation and localization), computation unit (Rpi4) and
+    bucket (to carry payload).
+    The design was based on the contrains due to size of window through which it has to pass. &lt;br&gt;
+    Here are some images of the design:
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/d2c.jpg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    After design was ready, our next step was to perform stability and structural analysis on frame of quadcopter in
+    order to ensure that it will sustain
+    in given conditions. At the same time team has to make a simulation of quad performing the tasks given problem
+    statement.
+    &lt;br&gt; I performed stress analysis and modal analysis on the frame using ANSYS simulation software using FEA model
+
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c4.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c5.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c6.PNG&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;button class=&quot;button&quot; id=&quot;toggle&quot; onclick=&quot;toggle()&quot;&gt;SHOW CAD&lt;/button&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div id=&quot;cad&quot; style=&quot;text-align: center; display: none;&quot;&gt;
+    &lt;embed type=&quot;text/html&quot; src=&quot;/assets/d2c.html&quot; class=&quot;image fit&quot; height=&quot;250&quot;&gt;
+    &lt;!-- &lt;iframe src=&quot;https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; --&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;
+
+&lt;h3&gt;Current Status of project&lt;/h3&gt;
+We cracked the simulation Challenge and now we are in national finale!!! only 3 teams got selected for finale. Our next
+target is to develope actual prototype
+&lt;/p&gt;
+
+&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
+    &lt;h4&gt;Simulation Video&lt;/h4&gt;
+    &lt;iframe src=&quot;https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function toggle() {
+        btn = document.getElementById(&#39;toggle&#39;);
+        cad = document.getElementById(&#39;cad&#39;)
+        if(cad.style.display ==&#39;none&#39;)
+        {
+            cad.style.display = &#39;block&#39;
+            btn.innerHTML = &#39;HIDE CAD&#39;
+        }
+        else
+        {
+            cad.style.display = &#39;none&#39;
+            btn.innerHTML = &#39;SHOW CAD&#39;
+        }
+    }
+&lt;/script&gt;
+</description>
+        <pubDate>Thu, 29 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/d2c</link>
+        <guid isPermaLink="true">portfolio/projects/d2c</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Project Ethan</title>
+        <description>&lt;h3&gt;About Project&lt;/h3&gt;
+&lt;p&gt;
+    During the pandemic period, I applied for a tech team.
+    I had to solve one problem statement to pass the recruitment process.
+    So, this project was based on that problem statement.
+    It includes &lt;b&gt;ROS+Gazebo simulations&lt;/b&gt; along with mechanical design.
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Problem Statement&lt;/h3&gt;
+&lt;div class=&quot;12u&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img
+            src=&quot;/images/projects/ethan/ethan1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;
+    The Robot is launched in an unknown apartment, it has to find the passcode of safe which is located in the same
+    apartment. The digits of passcode are written on walls at different locations robot has to recognize this digits and
+    decode the passcode, the hint for passcode sequence is 1st digit is red, 2nd is green, 3rd is yellow, 4th is blue
+    and 5th is orange. Once bot decodes the passcode and saves, it has to search for safe and press the keys for
+    unlocking the safe!
+    &lt;br&gt;
+    &lt;u&gt;&lt;b&gt;But, here is the catch ! &lt;/b&gt;&lt;/u&gt;: Safe is at 100cm and appartment is armed with lasers which will detect any
+    thing above
+    50cm. So, our bot design should be in a such way that it will have height less than 50cms and will be able to extend
+    itself upto 100cms !
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Here is how our bot looks!&lt;/h3&gt;
+&lt;div class=&quot;12u&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img
+            src=&quot;/images/projects/ethan/ethan2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;Final Results:&lt;/h3&gt;
+
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan3.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan4.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 28 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/ethan</link>
+        <guid isPermaLink="true">portfolio/projects/ethan</guid>
         
         
       </item>
@@ -138,216 +350,9 @@ you can watch the full video of the model that I made... &lt;br&gt;
 &lt;/p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;a class=&quot;popup-youtube button&quot; href=&quot;/images/projects/quad/hover.mp4&quot;&gt;Watch hover video&lt;/a&gt;&lt;br&gt;&lt;/div&gt;</description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
+        <pubDate>Tue, 27 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/quad</link>
         <guid isPermaLink="true">portfolio/projects/quad</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pluto Hackathon</title>
-        <description>&lt;h3&gt;About Hackathon:&lt;/h3&gt;
-&lt;p&gt;
-    Aero modeling club IIT BOMBAY, conducted a very interesting hackathon in collaboration with a company named &lt;a href=&quot;https://www.dronaaviation.com/&quot;&gt;&quot;Drona Aviation&quot;&lt;/a&gt;. They gave us their drones and asked to solve the problem statement using their drones.
-    The problem statement which was given to us was &#39;FLAME SENSING DRONE&#39;
-&lt;/p&gt;
-&lt;hr&gt;    
-&lt;h3&gt;our solution&lt;/h3&gt;
-&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
-    &lt;h4&gt;Simulation Video&lt;/h4&gt;
-    &lt;iframe src=&quot;https://youtube.com/embed/hG6be54gPwU&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/pluto</link>
-        <guid isPermaLink="true">portfolio/projects/pluto</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Terrace Farming robot</title>
-        <description>&lt;h3&gt;About the Competition&lt;/h3&gt;
-&lt;p&gt;This Competition was held during the 8th Inter IIT Tech Meet. During this meet, different tech competitions are conducted between IITs.
-    One of them was the &quot;DIC&#39;s Terrace Farming Challenge for Hilly areas&quot;.
-    The task was to design an autonomous robot that can climb steps of 40cm and perform basic farming tasks like Cutting, Plucking, etc.
-     &lt;/p&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/interiit/interiit1.jpeg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
-    &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-
-&lt;h3&gt;Our robot model&lt;/h3&gt;
-&lt;p&gt;We had to come up with a design which will be compact and can perform given tasks including the climbing mechanism. after a week of brainstorming we came up with a design which includes a lead screw for the climbing mechanism and a rectangular shell around the bot which will perform the task of plowing and cutting. we also include a simple pipe with a funnel for seeding.
-    This idea lead us to stood 2nd in indeation phase. 
-    Here are the pictures illustrating how our bot looks like: &lt;/p&gt;
-&lt;div class=&quot;row uniform 50%&quot;&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;climbing mechanism&lt;/h3&gt;
-&lt;p&gt;The climbing mechanism includes series of motions of lead screw and driving wheels which will cause to bot lift up and move forward.
-    Following image will illustrate the overall mechanism :
-&lt;/p&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/interiit/interiit4.gif&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;final assembly of bot and competition&lt;/h3&gt;
-&lt;p&gt;
-    &lt;div class=&quot;row uniform 50%&quot;&gt;
-        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    After weeks of effort, we could complete the hardware assembly a day before the competition and that&#39;s why we didn&#39;t get time for testing.
-    During the competition, due to electrical failures, we could not perform tasks.
-     Though we didn&#39;t win the competition the overall experience of this project was life-changing for me, 
-     this Tech Meet changed my perspective of thinking in all aspects. Also, the train journey, debugging in the train, 
-     finding tools at late night in place which completely unknown to us was less than an adventure!
-&lt;/p&gt;</description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/interiit</link>
-        <guid isPermaLink="true">portfolio/projects/interiit</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Project Ethan</title>
-        <description>&lt;h3&gt;About Project&lt;/h3&gt;
-&lt;p&gt;
-    During the pandemic period, I applied for a tech team.
-    I had to solve one problem statement to pass the recruitment process.
-    So, this project was based on that problem statement.
-    It includes &lt;b&gt;ROS+Gazebo simulations&lt;/b&gt; along with mechanical design.
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Problem Statement&lt;/h3&gt;
-&lt;div class=&quot;12u&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img
-            src=&quot;/images/projects/ethan/ethan1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;p&gt;
-    The Robot is launched in an unknown apartment, it has to find the passcode of safe which is located in the same
-    apartment. The digits of passcode are written on walls at different locations robot has to recognize this digits and
-    decode the passcode, the hint for passcode sequence is 1st digit is red, 2nd is green, 3rd is yellow, 4th is blue
-    and 5th is orange. Once bot decodes the passcode and saves, it has to search for safe and press the keys for
-    unlocking the safe!
-    &lt;br&gt;
-    &lt;u&gt;&lt;b&gt;But, here is the catch ! &lt;/b&gt;&lt;/u&gt;: Safe is at 100cm and appartment is armed with lasers which will detect any
-    thing above
-    50cm. So, our bot design should be in a such way that it will have height less than 50cms and will be able to extend
-    itself upto 100cms !
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Here is how our bot looks!&lt;/h3&gt;
-&lt;div class=&quot;12u&quot; style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;image fit&quot; style=&quot;text-align: center;&quot;&gt;&lt;img
-            src=&quot;/images/projects/ethan/ethan2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;Final Results:&lt;/h3&gt;
-
-&lt;div class=&quot;row uniform 50%&quot;&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan3.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan4.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;</description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/ethan</link>
-        <guid isPermaLink="true">portfolio/projects/ethan</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Flipkart Robotcs Challenge</title>
-        <description>&lt;h3&gt;About Flipkart Grid 2.0 - Robotcs Challenge&lt;/h3&gt;
-&lt;p&gt;During the pandemic period, Flipkart conducted an interesting competition for robotics enthusiasts under Flipkart
-    Grid 2.0. There were three problem statements :
-&lt;ul&gt;
-    &lt;li&gt;Intelligent Picking&lt;/li&gt;
-    &lt;li&gt;Autonomous Indoor Drone&lt;/li&gt;
-    &lt;li&gt;Autonomous Stair Climbing Robot.&lt;/li&gt;
-&lt;/ul&gt;
-We chose the Autonomous Indoor Drone Challenge in which we had to propose the solution of drone which will be able to
-carry 2kgs of load
-and able to navigate through a series of windows randomly placed in a room &lt;br&gt; &lt;br&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/d2c/ps.png&quot; class=&quot;image&quot; style=&quot;max-width:100%;&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;a href=&quot;/assets/d2c_ps.pdf&quot; class=&quot;button&quot; target=&quot;blank&quot;&gt;View Problem statement&lt;/a&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Our Solution&lt;/h3&gt;
-&lt;p&gt;
-    I designed the cad model consisting of depth camera (for navigation and localization), computation unit (Rpi4) and
-    bucket (to carry payload).
-    The design was based on the contrains due to size of window through which it has to pass. &lt;br&gt;
-    Here are some images of the design:
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/d2c.jpg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row uniform 50%&quot;&gt;
-    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    After design was ready, our next step was to perform stability and structural analysis on frame of quadcopter in
-    order to ensure that it will sustain
-    in given conditions. At the same time team has to make a simulation of quad performing the tasks given problem
-    statement.
-    &lt;br&gt; I performed stress analysis and modal analysis on the frame using ANSYS simulation software using FEA model
-
-&lt;div class=&quot;row uniform 50%&quot;&gt;
-    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c4.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c5.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/d2c/d2c6.PNG&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;br&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;&lt;button class=&quot;button&quot; id=&quot;toggle&quot; onclick=&quot;toggle()&quot;&gt;SHOW CAD&lt;/button&gt;&lt;/div&gt;
-&lt;br&gt;
-&lt;div id=&quot;cad&quot; style=&quot;text-align: center; display: none;&quot;&gt;
-    &lt;embed type=&quot;text/html&quot; src=&quot;/assets/d2c.html&quot; class=&quot;image fit&quot; height=&quot;250&quot;&gt;
-    &lt;!-- &lt;iframe src=&quot;https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; --&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;
-
-&lt;h3&gt;Current Status of project&lt;/h3&gt;
-We cracked the simulation Challenge and now we are in national finale!!! only 3 teams got selected for finale. Our next
-target is to develope actual prototype
-&lt;/p&gt;
-
-&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
-    &lt;h4&gt;Simulation Video&lt;/h4&gt;
-    &lt;iframe src=&quot;https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;script&gt;
-    function toggle() {
-        btn = document.getElementById(&#39;toggle&#39;);
-        cad = document.getElementById(&#39;cad&#39;)
-        if(cad.style.display ==&#39;none&#39;)
-        {
-            cad.style.display = &#39;block&#39;
-            btn.innerHTML = &#39;HIDE CAD&#39;
-        }
-        else
-        {
-            cad.style.display = &#39;none&#39;
-            btn.innerHTML = &#39;SHOW CAD&#39;
-        }
-    }
-&lt;/script&gt;
-</description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/d2c</link>
-        <guid isPermaLink="true">portfolio/projects/d2c</guid>
         
         
       </item>
@@ -389,7 +394,7 @@ target is to develope actual prototype
                 }
         }
 &lt;/script&gt;</description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
+        <pubDate>Mon, 26 Oct 2020 00:00:00 +0530</pubDate>
         <link>portfolio/projects/aerov</link>
         <guid isPermaLink="true">portfolio/projects/aerov</guid>
         
@@ -397,11 +402,72 @@ target is to develope actual prototype
       </item>
     
       <item>
-        <title>PID Tutorial</title>
+        <title>Team Stride</title>
         <description></description>
-        <pubDate>Wed, 07 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/pid_tut</link>
-        <guid isPermaLink="true">portfolio/projects/pid_tut</guid>
+        <pubDate>Sun, 25 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/stride</link>
+        <guid isPermaLink="true">portfolio/projects/stride</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pluto Hackathon</title>
+        <description>&lt;h3&gt;About Hackathon:&lt;/h3&gt;
+&lt;p&gt;
+    Aero modeling club IIT BOMBAY, conducted a very interesting hackathon in collaboration with a company named &lt;a href=&quot;https://www.dronaaviation.com/&quot;&gt;&quot;Drona Aviation&quot;&lt;/a&gt;. They gave us their drones and asked to solve the problem statement using their drones.
+    The problem statement which was given to us was &#39;FLAME SENSING DRONE&#39;
+&lt;/p&gt;
+&lt;hr&gt;    
+&lt;h3&gt;our solution&lt;/h3&gt;
+&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
+    &lt;h4&gt;Simulation Video&lt;/h4&gt;
+    &lt;iframe src=&quot;https://youtube.com/embed/hG6be54gPwU&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sat, 24 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/pluto</link>
+        <guid isPermaLink="true">portfolio/projects/pluto</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cozmo Clench</title>
+        <description>&lt;h3&gt;About Competition: &lt;/h3&gt;
+&lt;p&gt;
+    It was my first competition as a fresher to represent IIT Bombay in any robotic competition. It was organized during
+    &lt;a href=&quot;https://techfest.org/&quot; target=&quot;blank&quot;&gt;TechFest&lt;/a&gt; (Asia&#39;s Largest technical festival).
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Problem Statement:&lt;/h3&gt;
+&lt;p&gt;
+    Your bot is in an arena, where there are some empty spaces. The robot has to grab boxes placed in the same arena and
+    fill those empty spaces.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+        &lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/cozmo/cozmo1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/Cozmo-Clench.pdf&quot;&gt;View Full Problem Statement&lt;/a&gt;
+
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;My bot!&lt;/h3&gt;
+&lt;div id=&quot;&quot; style=&quot;text-align: center ;&quot;&gt;
+    &lt;h4&gt;Simulation Video&lt;/h4&gt;
+    &lt;iframe src=&quot;https://youtube.com/embed/pMcU77L2mfw&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 23 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/cozmo</link>
+        <guid isPermaLink="true">portfolio/projects/cozmo</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vehicle tracker</title>
+        <description></description>
+        <pubDate>Thu, 22 Oct 2020 00:00:00 +0530</pubDate>
+        <link>portfolio/projects/tracker</link>
+        <guid isPermaLink="true">portfolio/projects/tracker</guid>
         
         
       </item>

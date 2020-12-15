@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+permalink: /projects
+---
+
+<ul>
+<section class="tiles" style="text-align: center;">
+    {% for my_page in site.posts %}
+    {% if my_page.path contains 'projects'  %}
+    <article class="{{ my_page.style }}">
+		<span class="image">
+			<img src="{{ my_page.img_path }}" alt="" />
+		</span>
+		<a href='{{ my_page.url }}'>
+			<h2>{{ my_page.intro }}</h2>
+			<div class="content">
+				<p>{{ my_page.subintro }}</p>
+			</div>
+		</a>
+	</article>
+    <!-- <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li> -->
+    {% endif %}
+    {% endfor %}
+</section>
+</ul>
