@@ -26,45 +26,17 @@ permalink: /projects
 </ul>
 
 <script>
-    var ll = $('div');
-var lh = []
-var wscroll = 0;
-var wh = $(window).height();
-
-function update_offsets(){
-  $('div').each(function(){
-    var x = $(this).offset().top;
-    lh.push(x);
-  });
-};
-
-function lazy() {
-  wscroll = $(window).scrollTop();
-  for(i = 0; i < lh.length; i++){
-    if(lh[i] <= wscroll + (wh - 200)){
-      $('div').eq(i).addClass('loaded');
-    };
-  };
-};
-
-// Page Load
-update_offsets();
-lazy();
-
-$(window).on('scroll',function(){
-  lazy();
-});
-(async () => {
-    if ('loading' in HTMLImageElement.prototype) {
-        const images = document.querySelectorAll("img.lazyload");
-        images.forEach(img => {
-            img.src = img.dataset.src;
-        });
-    } else {
-        // Dynamically import the LazySizes library
-        const lazySizesLib = await import('/lazysizes.min.js');
-        // Initiate LazySizes (reads data-src & class=lazyload)
-        lazySizes.init(); // lazySizes works off a global.
-    }
-})();
-</script>
+  (async () => {
+      if ('loading' in HTMLImageElement.prototype) {
+          const images = document.querySelectorAll("img.lazyload");
+          images.forEach(img => {
+              img.src = img.dataset.src;
+          });
+      } else {
+          // Dynamically import the LazySizes library
+          const lazySizesLib = await import('/lazysizes.min.js');
+          // Initiate LazySizes (reads data-src & class=lazyload)
+          lazySizes.init(); // lazySizes works off a global.
+      }
+  })();
+  </script>
