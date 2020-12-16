@@ -6,7 +6,32 @@ permalink : /about
 <h3>About me</h3>
 <hr>
 <section>
-	<span class="image right"><img src="images/vishwajeet.jpg	" alt="" /></span>
+	
+	<span class="image right">
+		<!-- <img src="images/vishwajeet.jpg	" alt="" /> -->
+		<div class="vcard">
+			<div class="imgBx">
+				<img src="/images/vishwajeet.jpg" alt="images">
+			</div>
+			<div class="details">
+				<h2>
+					<ul class="icons">
+						{% for socloc in site.social %}
+						{% if socloc[1] %}
+						{% if socloc[0] == 'email' %}
+						<li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope-o"
+							   ><span class="label">E-mail</span></a></li>
+						{% else %}
+						<li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
+							   ></a></li>
+						{% endif %}
+						{% endif %}
+						{% endfor %}
+					  </ul>
+				</h2>
+			</div>
+		  </div>
+	</span>
 	<blockquote>
 		Hey there! <br>
 I'm Vishwajeet Bhagyawant, a 3rd year undergraduate in Material Science at IIT Bombay.
@@ -15,8 +40,6 @@ My passion for Robotics fuels me for doing a variety of projects.
 From building a Bluetooth controlled robot in my freshie year to <b>Autonomous drones and vehicles</b>,
 each project has taught me to improve myself both skill-wise and personally, and I am looking forward to improving more!!
 	</blockquote>
-	
-
 	<div>
 		<ul class="actions">
 			<li><a href="/projects.html" class="button ">My Projects</a></li>
