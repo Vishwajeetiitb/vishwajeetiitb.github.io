@@ -1220,10 +1220,10 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	.wrapper {
-		@include padding(6em, 0);
+		@include padding(2em, 0);
 
 		> .inner {
-			width: 60em;
+			width: 70em;
 			margin: 0 auto;
 
 			@include breakpoint(large) {
