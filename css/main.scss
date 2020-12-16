@@ -1223,7 +1223,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include padding(2em, 0);
 
 		> .inner {
-			width: 70em;
+			width: 75em;
 			margin: 0 auto;
 
 			@include breakpoint(large) {
