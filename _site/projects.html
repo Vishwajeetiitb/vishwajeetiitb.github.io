@@ -88,7 +88,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style1">
 		<span class="image">
-			<img src="/images/projects/pat.png" alt="" />
+			<img data-src="/images/projects/pat.png" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/patrolling'>
 			<h2>Research Project</h2>
@@ -103,7 +103,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style2">
 		<span class="image">
-			<img src="/images/projects/interiit.jpg" alt="" />
+			<img data-src="/images/projects/interiit.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/interiit'>
 			<h2>Terrace Farming Robot</h2>
@@ -118,7 +118,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style3">
 		<span class="image">
-			<img src="/images/projects/d2c.jpg" alt="" />
+			<img data-src="/images/projects/d2c.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/d2c'>
 			<h2>Autonomous Indoor Drone</h2>
@@ -133,7 +133,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style4">
 		<span class="image">
-			<img src="/images/projects/ethan.jpg" alt="" />
+			<img data-src="/images/projects/ethan.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/ethan'>
 			<h2>Autonomous security Hacking bot</h2>
@@ -148,7 +148,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style5">
 		<span class="image">
-			<img src="/images/projects/quad.jpg" alt="" />
+			<img data-src="/images/projects/quad.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/quad'>
 			<h2>Quadcopter from scratch</h2>
@@ -163,7 +163,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style6">
 		<span class="image">
-			<img src="/images/projects/aerov.jpg" alt="" />
+			<img data-src="/images/projects/aerov.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/aerov'>
 			<h2>Team Aerov</h2>
@@ -178,7 +178,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style2">
 		<span class="image">
-			<img src="/images/projects/stride.jpg" alt="" />
+			<img data-src="/images/projects/stride.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/stride'>
 			<h2>Autonomous Quadraped</h2>
@@ -193,7 +193,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style1">
 		<span class="image">
-			<img src="/images/projects/pluto.jpg" alt="" />
+			<img data-src="/images/projects/pluto.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/pluto'>
 			<h2>Flame sensing drone</h2>
@@ -208,7 +208,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style3">
 		<span class="image">
-			<img src="/images/projects/cozmo.jpg" alt="" />
+			<img data-src="/images/projects/cozmo.jpg" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/cozmo'>
 			<h2>cozmo Clench</h2>
@@ -223,7 +223,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style2">
 		<span class="image">
-			<img src="/images/projects/pat.png" alt="" />
+			<img data-src="/images/projects/pat.png" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/tracker'>
 			<h2>Realtime Vehicle tracker</h2>
@@ -238,7 +238,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style4">
 		<span class="image">
-			<img src="/images/projects/pat.png" alt="" />
+			<img data-src="/images/projects/pat.png" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/iot'>
 			<h2>Home Automation</h2>
@@ -253,7 +253,7 @@ crafted by [HTML5 UP](http://html5up.net)
     
     <article class="style6">
 		<span class="image">
-			<img src="/images/projects/pat.png" alt="" />
+			<img data-src="/images/projects/pat.png" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='/projects/gesturebot'>
 			<h2>Gesture controlled bot</h2>
@@ -269,6 +269,22 @@ crafted by [HTML5 UP](http://html5up.net)
     
 </section>
 </ul>
+
+<script>
+(async () => {
+    if ('loading' in HTMLImageElement.prototype) {
+        const images = document.querySelectorAll("img.lazyload");
+        images.forEach(img => {
+            img.src = img.dataset.src;
+        });
+    } else {
+        // Dynamically import the LazySizes library
+        const lazySizesLib = await import('/lazysizes.min.js');
+        // Initiate LazySizes (reads data-src & class=lazyload)
+        lazySizes.init(); // lazySizes works off a global.
+    }
+})();
+</script>
 
       <!-- Footer -->
 <footer id="footer">

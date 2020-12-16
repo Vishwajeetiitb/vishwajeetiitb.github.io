@@ -10,7 +10,7 @@ permalink: /projects
     {% if my_page.path contains 'projects'  %}
     <article class="{{ my_page.style }}">
 		<span class="image">
-			<img src="{{ my_page.img_path }}" alt="" />
+			<img data-src="{{ my_page.img_path }}" alt="" loading = 'lazy' class="lazyload"/>
 		</span>
 		<a href='{{ my_page.url }}'>
 			<h2>{{ my_page.intro }}</h2>
@@ -24,3 +24,19 @@ permalink: /projects
     {% endfor %}
 </section>
 </ul>
+
+<script>
+(async () => {
+    if ('loading' in HTMLImageElement.prototype) {
+        const images = document.querySelectorAll("img.lazyload");
+        images.forEach(img => {
+            img.src = img.dataset.src;
+        });
+    } else {
+        // Dynamically import the LazySizes library
+        const lazySizesLib = await import('/lazysizes.min.js');
+        // Initiate LazySizes (reads data-src & class=lazyload)
+        lazySizes.init(); // lazySizes works off a global.
+    }
+})();
+</script>
