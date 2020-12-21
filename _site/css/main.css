@@ -2202,7 +2202,7 @@ button,
 .wrapper2 {
   padding: 2em 0 0.1em 0 ; }
   .wrapper2 > .inner {
-    width: 55em;
+    width: 95em;
     margin: 0 auto; }
     @media screen and (max-width: 1280px) {
       .wrapper2 > .inner {
