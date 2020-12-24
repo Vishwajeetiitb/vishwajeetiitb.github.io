@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vishwajeet</title>
-    <description>Another fine responsive  
-site template freebie  
-crafted by [HTML5 UP](http://html5up.net)
+    <description>Robotics portfolio | Vishwajeet Bhgyawant
 </description>
-    <link>portfolio/</link>
-    <atom:link href="portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Dec 2020 11:08:53 +0530</pubDate>
-    <lastBuildDate>Mon, 21 Dec 2020 11:08:53 +0530</lastBuildDate>
+    <link>robotics portfolio/</link>
+    <atom:link href="robotics portfolio/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 24 Dec 2020 14:40:56 +0530</pubDate>
+    <lastBuildDate>Thu, 24 Dec 2020 14:40:56 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -72,8 +70,8 @@ Patrolling means the act of walking or traveling around an area, at regular inte
     &lt;li&gt;Improve the results of Conscientious Reactive in case of larger number of cars in assymetrical grids.&lt;/li&gt;
 &lt;/p&gt;</description>
         <pubDate>Sat, 31 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/patrolling</link>
-        <guid isPermaLink="true">portfolio/projects/patrolling</guid>
+        <link>robotics portfolio/projects/patrolling</link>
+        <guid isPermaLink="true">robotics portfolio/projects/patrolling</guid>
         
         
       </item>
@@ -125,8 +123,8 @@ Patrolling means the act of walking or traveling around an area, at regular inte
      finding tools at late night in place which completely unknown to us was less than an adventure!
 &lt;/p&gt;</description>
         <pubDate>Fri, 30 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/interiit</link>
-        <guid isPermaLink="true">portfolio/projects/interiit</guid>
+        <link>robotics portfolio/projects/interiit</link>
+        <guid isPermaLink="true">robotics portfolio/projects/interiit</guid>
         
         
       </item>
@@ -216,8 +214,8 @@ target is to develope actual prototype
 &lt;/script&gt;
 </description>
         <pubDate>Thu, 29 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/d2c</link>
-        <guid isPermaLink="true">portfolio/projects/d2c</guid>
+        <link>robotics portfolio/projects/d2c</link>
+        <guid isPermaLink="true">robotics portfolio/projects/d2c</guid>
         
         
       </item>
@@ -259,8 +257,8 @@ target is to develope actual prototype
     &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan4.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 28 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/ethan</link>
-        <guid isPermaLink="true">portfolio/projects/ethan</guid>
+        <link>robotics portfolio/projects/ethan</link>
+        <guid isPermaLink="true">robotics portfolio/projects/ethan</guid>
         
         
       </item>
@@ -351,8 +349,8 @@ you can watch the full video of the model that I made... &lt;br&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;a class=&quot;popup-youtube button&quot; href=&quot;/images/projects/quad/hover.mp4&quot;&gt;Watch hover video&lt;/a&gt;&lt;br&gt;&lt;/div&gt;</description>
         <pubDate>Tue, 27 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/quad</link>
-        <guid isPermaLink="true">portfolio/projects/quad</guid>
+        <link>robotics portfolio/projects/quad</link>
+        <guid isPermaLink="true">robotics portfolio/projects/quad</guid>
         
         
       </item>
@@ -395,8 +393,8 @@ you can watch the full video of the model that I made... &lt;br&gt;
         }
 &lt;/script&gt;</description>
         <pubDate>Mon, 26 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/aerov</link>
-        <guid isPermaLink="true">portfolio/projects/aerov</guid>
+        <link>robotics portfolio/projects/aerov</link>
+        <guid isPermaLink="true">robotics portfolio/projects/aerov</guid>
         
         
       </item>
@@ -405,8 +403,8 @@ you can watch the full video of the model that I made... &lt;br&gt;
         <title>Team Stride</title>
         <description></description>
         <pubDate>Sun, 25 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/stride</link>
-        <guid isPermaLink="true">portfolio/projects/stride</guid>
+        <link>robotics portfolio/projects/stride</link>
+        <guid isPermaLink="true">robotics portfolio/projects/stride</guid>
         
         
       </item>
@@ -425,8 +423,8 @@ you can watch the full video of the model that I made... &lt;br&gt;
     &lt;iframe src=&quot;https://youtube.com/embed/hG6be54gPwU&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
         <pubDate>Sat, 24 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/pluto</link>
-        <guid isPermaLink="true">portfolio/projects/pluto</guid>
+        <link>robotics portfolio/projects/pluto</link>
+        <guid isPermaLink="true">robotics portfolio/projects/pluto</guid>
         
         
       </item>
@@ -456,18 +454,38 @@ you can watch the full video of the model that I made... &lt;br&gt;
     &lt;iframe src=&quot;https://youtube.com/embed/pMcU77L2mfw&quot; class=&quot;image&quot; style=&quot;max-width: 100%;&quot; title=&quot;Iframe Example&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
         <pubDate>Fri, 23 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/cozmo</link>
-        <guid isPermaLink="true">portfolio/projects/cozmo</guid>
+        <link>robotics portfolio/projects/cozmo</link>
+        <guid isPermaLink="true">robotics portfolio/projects/cozmo</guid>
         
         
       </item>
     
       <item>
-        <title>IoT</title>
-        <description></description>
+        <title>AR Glasses</title>
+        <description>&lt;header&gt;
+    &lt;h3&gt;AR Glasses based on Arduino and Optics&lt;/h3&gt;
+    &lt;p&gt;Hobby Project | Jun &#39;19&lt;/p&gt;
+&lt;/header&gt;
+&lt;p&gt;
+    Made an AR device using principals of optics. This device can be usefull for bikers while navigating
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;
+    &lt;h3&gt;3D printing&lt;/h3&gt;
+    &lt;div class=&quot;row uniform 50%&quot;&gt;
+        &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ar/ar1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ar/ar2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Final device&lt;/h3&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ar/ar3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;</description>
         <pubDate>Thu, 22 Oct 2020 00:00:00 +0530</pubDate>
-        <link>portfolio/projects/iot</link>
-        <guid isPermaLink="true">portfolio/projects/iot</guid>
+        <link>robotics portfolio/projects/ar</link>
+        <guid isPermaLink="true">robotics portfolio/projects/ar</guid>
         
         
       </item>
