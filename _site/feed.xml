@@ -6,9 +6,9 @@
 </description>
     <link>robotics portfolio/</link>
     <atom:link href="robotics portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Dec 2020 07:58:26 +0530</pubDate>
-    <lastBuildDate>Wed, 30 Dec 2020 07:58:26 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Thu, 04 Mar 2021 14:48:11 +0530</pubDate>
+    <lastBuildDate>Thu, 04 Mar 2021 14:48:11 +0530</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>Research Project</title>
@@ -23,7 +23,7 @@
 &lt;h3&gt;Project Description:&lt;/h3&gt;
 &lt;p&gt;
 &lt;p&gt;&lt;span class=&quot;image right&quot;&gt;&lt;img src=&quot;/images/projects/pat/pat.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-Patrolling means the act of walking or traveling around an area, at regular intervals, to protect or supervise it. Given a graph, the patrolling task refers to continuously visiting all the graph nodes to minimize the time lag between two visits. We have to design an automated patrolling system with multiple agents to monitor a given environment with nodes of interest of varying priorities. A group of students is working on the simulation part of this project, provided by the DRDO, India. They will do the hardware aspect of this project. This project&#39;s main objective is to prevent the innocent lives of many soldiers who are at the borders working at their top edge and died while patrolling manually. So, instead of them, an autonomous car will do this task and keep a keen observation of the enemies&#39; movement.
+Patrolling means the act of walking or traveling around an area, at regular intervals, to protect or supervise it. Given a graph, the patrolling task refers to continuously visiting all the graph nodes to minimize the time lag between two visits. We have to design an automated patrolling system with multiple agents to monitor a given environment with nodes of interest of varying priorities. A group of students is working on the simulation part of this project, provided by the DRDO, India. They will do the hardware aspect of this project. This project's main objective is to prevent the innocent lives of many soldiers who are at the borders working at their top edge and died while patrolling manually. So, instead of them, an autonomous car will do this task and keep a keen observation of the enemies' movement.
 &lt;/p&gt;
 &lt;br&gt;
 &lt;hr&gt;
@@ -80,7 +80,7 @@ Patrolling means the act of walking or traveling around an area, at regular inte
         <title>Terrace Farming robot</title>
         <description>&lt;h3&gt;About the Competition&lt;/h3&gt;
 &lt;p&gt;This Competition was held during the 8th Inter IIT Tech Meet. During this meet, different tech competitions are conducted between IITs.
-    One of them was the &quot;DIC&#39;s Terrace Farming Challenge for Hilly areas&quot;.
+    One of them was the &quot;DIC's Terrace Farming Challenge for Hilly areas&quot;.
     The task was to design an autonomous robot that can climb steps of 40cm and perform basic farming tasks like Cutting, Plucking, etc.
      &lt;/p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
@@ -116,9 +116,9 @@ Patrolling means the act of walking or traveling around an area, at regular inte
     &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    After weeks of effort, we could complete the hardware assembly a day before the competition and that&#39;s why we didn&#39;t get time for testing.
+    After weeks of effort, we could complete the hardware assembly a day before the competition and that's why we didn't get time for testing.
     During the competition, due to electrical failures, we could not perform tasks.
-     Though we didn&#39;t win the competition the overall experience of this project was life-changing for me, 
+     Though we didn't win the competition the overall experience of this project was life-changing for me, 
      this Tech Meet changed my perspective of thinking in all aspects. Also, the train journey, debugging in the train, 
      finding tools at late night in place which completely unknown to us was less than an adventure!
 &lt;/p&gt;</description>
@@ -198,17 +198,17 @@ target is to develope actual prototype
 &lt;/div&gt;
 &lt;script&gt;
     function toggle() {
-        btn = document.getElementById(&#39;toggle&#39;);
-        cad = document.getElementById(&#39;cad&#39;)
-        if(cad.style.display ==&#39;none&#39;)
+        btn = document.getElementById('toggle');
+        cad = document.getElementById('cad')
+        if(cad.style.display =='none')
         {
-            cad.style.display = &#39;block&#39;
-            btn.innerHTML = &#39;HIDE CAD&#39;
+            cad.style.display = 'block'
+            btn.innerHTML = 'HIDE CAD'
         }
         else
         {
-            cad.style.display = &#39;none&#39;
-            btn.innerHTML = &#39;SHOW CAD&#39;
+            cad.style.display = 'none'
+            btn.innerHTML = 'SHOW CAD'
         }
     }
 &lt;/script&gt;
@@ -293,7 +293,7 @@ target is to develope actual prototype
 Before applying PID on the quadcopter, I had to find an alternative model that will be safer to test so that, I can play
 around with it and see the response of different parameters of PID.
 &lt;br&gt; The 2D model approximation shown in the above image is best to do that. with the help of this model, I could learn
-more about PID and its parameter&#39;s response. The one more major learning was to learn how to apply filters like
+more about PID and its parameter's response. The one more major learning was to learn how to apply filters like
 &lt;b&gt;complementary filters, Kalman filters&lt;/b&gt; to reduce the noise in the gyroscope due to vibrations of the frame.
 you can watch the full video of the model that I made... &lt;br&gt;
 
@@ -376,19 +376,19 @@ you can watch the full video of the model that I made... &lt;br&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;&lt;button class=&quot;button&quot; id=&quot;toggle&quot; onclick=&quot;toggle()&quot;&gt;SHOW CAD&lt;/button&gt;&lt;/div&gt;
 &lt;br&gt;
-&lt;embed id=&quot;cad&quot; style=&quot;display: none;&quot; type=&quot;text/html&quot; src=&quot;/assets/gripper.html&quot; class=&quot;image fit&quot; height=&quot;250&quot; allowfullscreen=&#39;true&#39;&gt;
+&lt;embed id=&quot;cad&quot; style=&quot;display: none;&quot; type=&quot;text/html&quot; src=&quot;/assets/gripper.html&quot; class=&quot;image fit&quot; height=&quot;250&quot; allowfullscreen='true'&gt;
 
 &lt;script&gt;
         function toggle() {
-                btn = document.getElementById(&#39;toggle&#39;);
-                cad = document.getElementById(&#39;cad&#39;)
-                if (cad.style.display == &#39;none&#39;) {
-                        cad.style.display = &#39;block&#39;
-                        btn.innerHTML = &#39;HIDE CAD&#39;
+                btn = document.getElementById('toggle');
+                cad = document.getElementById('cad')
+                if (cad.style.display == 'none') {
+                        cad.style.display = 'block'
+                        btn.innerHTML = 'HIDE CAD'
                 }
                 else {
-                        cad.style.display = &#39;none&#39;
-                        btn.innerHTML = &#39;SHOW CAD&#39;
+                        cad.style.display = 'none'
+                        btn.innerHTML = 'SHOW CAD'
                 }
         }
 &lt;/script&gt;</description>
@@ -414,7 +414,7 @@ you can watch the full video of the model that I made... &lt;br&gt;
         <description>&lt;h3&gt;About Hackathon:&lt;/h3&gt;
 &lt;p&gt;
     Aero modeling club IIT BOMBAY, conducted a very interesting hackathon in collaboration with a company named &lt;a href=&quot;https://www.dronaaviation.com/&quot;&gt;&quot;Drona Aviation&quot;&lt;/a&gt;. They gave us their drones and asked to solve the problem statement using their drones.
-    The problem statement which was given to us was &#39;FLAME SENSING DRONE&#39;
+    The problem statement which was given to us was 'FLAME SENSING DRONE'
 &lt;/p&gt;
 &lt;hr&gt;    
 &lt;h3&gt;our solution&lt;/h3&gt;
@@ -434,7 +434,7 @@ you can watch the full video of the model that I made... &lt;br&gt;
         <description>&lt;h3&gt;About Competition: &lt;/h3&gt;
 &lt;p&gt;
     It was my first competition as a fresher to represent IIT Bombay in any robotic competition. It was organized during
-    &lt;a href=&quot;https://techfest.org/&quot; target=&quot;blank&quot;&gt;TechFest&lt;/a&gt; (Asia&#39;s Largest technical festival).
+    &lt;a href=&quot;https://techfest.org/&quot; target=&quot;blank&quot;&gt;TechFest&lt;/a&gt; (Asia's Largest technical festival).
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Problem Statement:&lt;/h3&gt;
@@ -464,7 +464,7 @@ you can watch the full video of the model that I made... &lt;br&gt;
         <title>AR Glasses</title>
         <description>&lt;header&gt;
     &lt;h3&gt;AR Glasses based on Arduino and Optics&lt;/h3&gt;
-    &lt;p&gt;Hobby Project | Jun &#39;19&lt;/p&gt;
+    &lt;p&gt;Hobby Project | Jun '19&lt;/p&gt;
 &lt;/header&gt;
 &lt;p&gt;
     Made an AR device using principals of optics. This device can be usefull for bikers while navigating
