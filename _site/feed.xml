@@ -6,8 +6,8 @@
 </description>
     <link>robotics portfolio/</link>
     <atom:link href="robotics portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Mar 2021 14:48:11 +0530</pubDate>
-    <lastBuildDate>Thu, 04 Mar 2021 14:48:11 +0530</lastBuildDate>
+    <pubDate>Wed, 19 May 2021 08:24:03 +0530</pubDate>
+    <lastBuildDate>Wed, 19 May 2021 08:24:03 +0530</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -77,51 +77,24 @@ Patrolling means the act of walking or traveling around an area, at regular inte
       </item>
     
       <item>
-        <title>Terrace Farming robot</title>
+        <title>Interiit9</title>
         <description>&lt;h3&gt;About the Competition&lt;/h3&gt;
-&lt;p&gt;This Competition was held during the 8th Inter IIT Tech Meet. During this meet, different tech competitions are conducted between IITs.
-    One of them was the &quot;DIC's Terrace Farming Challenge for Hilly areas&quot;.
-    The task was to design an autonomous robot that can climb steps of 40cm and perform basic farming tasks like Cutting, Plucking, etc.
-     &lt;/p&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/interiit/interiit1.jpeg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
-    &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
-&lt;/div&gt;
+&lt;p&gt; 
+    The agro-based industry is regarded as the sunrise sector of the Indian economy because of its large potential for growth, employment, and income generation. Farmers must meet the changing needs of our planet and the expectations of regulators, consumers, and food processors, and retailers.
+     Cost-effective, eco-friendly, and easily operable agricultural bots are in demand to give a boost to the economy.&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;br&gt;
+&lt;p&gt;
+    RuTAG (Rural Technology Action Group) Conducted the Competition during the 9th Inter IIT Tech Meet for mechanised farming
+&lt;/p&gt;
 
-&lt;h3&gt;Our robot model&lt;/h3&gt;
-&lt;p&gt;We had to come up with a design which will be compact and can perform given tasks including the climbing mechanism. after a week of brainstorming we came up with a design which includes a lead screw for the climbing mechanism and a rectangular shell around the bot which will perform the task of plowing and cutting. we also include a simple pipe with a funnel for seeding.
-    This idea lead us to stood 2nd in indeation phase. 
-    Here are the pictures illustrating how our bot looks like: &lt;/p&gt;
+&lt;h3&gt;Our Solution&lt;/h3&gt;
 &lt;div class=&quot;row uniform 50%&quot;&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit9/bot1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit9/bot2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit9/bot3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;climbing mechanism&lt;/h3&gt;
-&lt;p&gt;The climbing mechanism includes series of motions of lead screw and driving wheels which will cause to bot lift up and move forward.
-    Following image will illustrate the overall mechanism :
-&lt;/p&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/images/projects/interiit/interiit4.gif&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;final assembly of bot and competition&lt;/h3&gt;
-&lt;p&gt;
-    &lt;div class=&quot;row uniform 50%&quot;&gt;
-        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    After weeks of effort, we could complete the hardware assembly a day before the competition and that's why we didn't get time for testing.
-    During the competition, due to electrical failures, we could not perform tasks.
-     Though we didn't win the competition the overall experience of this project was life-changing for me, 
-     this Tech Meet changed my perspective of thinking in all aspects. Also, the train journey, debugging in the train, 
-     finding tools at late night in place which completely unknown to us was less than an adventure!
-&lt;/p&gt;</description>
+</description>
         <pubDate>Fri, 30 Oct 2020 00:00:00 +0530</pubDate>
         <link>robotics portfolio/projects/interiit</link>
         <guid isPermaLink="true">robotics portfolio/projects/interiit</guid>
@@ -213,9 +186,116 @@ target is to develope actual prototype
     }
 &lt;/script&gt;
 </description>
-        <pubDate>Thu, 29 Oct 2020 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0530</pubDate>
         <link>robotics portfolio/projects/d2c</link>
         <guid isPermaLink="true">robotics portfolio/projects/d2c</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Team Aerov</title>
+        <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+        &lt;img src=&quot;/images/projects/aerov.png&quot; class=&quot;image&quot; style=&quot;max-width: 50%; vertical-align:middle;&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;h3&gt;About Team Aerov&lt;/h3&gt;
+&lt;p&gt; Team Aerov is a part of UMIC ( &lt;a href=&quot;https://www.umiciitb.com/&quot; target=&quot;blank&quot;&gt;Umesh Mashruwal Innovation
+                Cell&lt;/a&gt; ), IIT Bombay.
+        This team focuses on Aerial robots related competition in worldwide.
+        It has already participated in IARC Mission 7 and Barcelona Smart Drone challenge.
+        Currently, it is focusing on IARC Mission 9. The detailed problem statement for IARC Mission 9 can be found &lt;a
+                href=&quot;http://www.aerialroboticscompetition.org/&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;.
+        Current major tasks are to travel 3 miles of distance and perform the task of replacing the communication module
+        using the robotic arm on the drone &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;My contribution : Mechatronics Subsystem&lt;/h3&gt;
+&lt;p&gt;My Current work is to design robotic arm with gripper for performing the tasks given in IARC Mission 9. I have made
+        models for it and now working on optimizing its weight&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;button class=&quot;button&quot; id=&quot;toggle&quot; onclick=&quot;toggle()&quot;&gt;SHOW CAD&lt;/button&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;embed id=&quot;cad&quot; style=&quot;display: none;&quot; type=&quot;text/html&quot; src=&quot;/assets/gripper.html&quot; class=&quot;image fit&quot; height=&quot;250&quot; allowfullscreen='true'&gt;
+
+&lt;script&gt;
+        function toggle() {
+                btn = document.getElementById('toggle');
+                cad = document.getElementById('cad')
+                if (cad.style.display == 'none') {
+                        cad.style.display = 'block'
+                        btn.innerHTML = 'HIDE CAD'
+                }
+                else {
+                        cad.style.display = 'none'
+                        btn.innerHTML = 'SHOW CAD'
+                }
+        }
+&lt;/script&gt;</description>
+        <pubDate>Thu, 29 Oct 2020 00:00:00 +0530</pubDate>
+        <link>robotics portfolio/projects/aerov</link>
+        <guid isPermaLink="true">robotics portfolio/projects/aerov</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Team Stride</title>
+        <description></description>
+        <pubDate>Wed, 28 Oct 2020 00:00:00 +0530</pubDate>
+        <link>robotics portfolio/projects/stride</link>
+        <guid isPermaLink="true">robotics portfolio/projects/stride</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Interiit</title>
+        <description>&lt;h3&gt;About the Competition&lt;/h3&gt;
+&lt;p&gt;This Competition was held during the 8th Inter IIT Tech Meet. During this meet, different tech competitions are conducted between IITs.
+    One of them was the &quot;DIC's Terrace Farming Challenge for Hilly areas&quot;.
+    The task was to design an autonomous robot that can climb steps of 40cm and perform basic farming tasks like Cutting, Plucking, etc.
+     &lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/interiit/interiit1.jpeg&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+    &lt;a class=&quot;button&quot; target=&quot;blank&quot; href=&quot;/assets/interiit_ps.pdf&quot;&gt;Problem Statement&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Our robot model&lt;/h3&gt;
+&lt;p&gt;We had to come up with a design which will be compact and can perform given tasks including the climbing mechanism. after a week of brainstorming we came up with a design which includes a lead screw for the climbing mechanism and a rectangular shell around the bot which will perform the task of plowing and cutting. we also include a simple pipe with a funnel for seeding.
+    This idea lead us to stood 2nd in indeation phase. 
+    Here are the pictures illustrating how our bot looks like: &lt;/p&gt;
+&lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;climbing mechanism&lt;/h3&gt;
+&lt;p&gt;The climbing mechanism includes series of motions of lead screw and driving wheels which will cause to bot lift up and move forward.
+    Following image will illustrate the overall mechanism :
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/projects/interiit/interiit4.gif&quot; class=&quot;image&quot; style=&quot;max-width:50%;&quot; alt=&quot;&quot;&gt;&lt;br&gt; &lt;br&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;final assembly of bot and competition&lt;/h3&gt;
+&lt;p&gt;
+    &lt;div class=&quot;row uniform 50%&quot;&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;4u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/interiit/interiit7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    After weeks of effort, we could complete the hardware assembly a day before the competition and that's why we didn't get time for testing.
+    During the competition, due to electrical failures, we could not perform tasks.
+     Though we didn't win the competition the overall experience of this project was life-changing for me, 
+     this Tech Meet changed my perspective of thinking in all aspects. Also, the train journey, debugging in the train, 
+     finding tools at late night in place which completely unknown to us was less than an adventure!
+&lt;/p&gt;</description>
+        <pubDate>Tue, 27 Oct 2020 00:00:00 +0530</pubDate>
+        <link>robotics portfolio/projects/interiit</link>
+        <guid isPermaLink="true">robotics portfolio/projects/interiit</guid>
         
         
       </item>
@@ -256,7 +336,7 @@ target is to develope actual prototype
     &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan3.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
     &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ethan/ethan4.gif&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;</description>
-        <pubDate>Wed, 28 Oct 2020 00:00:00 +0530</pubDate>
+        <pubDate>Mon, 26 Oct 2020 00:00:00 +0530</pubDate>
         <link>robotics portfolio/projects/ethan</link>
         <guid isPermaLink="true">robotics portfolio/projects/ethan</guid>
         
@@ -348,63 +428,9 @@ you can watch the full video of the model that I made... &lt;br&gt;
 &lt;/p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;a class=&quot;popup-youtube button&quot; href=&quot;/images/projects/quad/hover.mp4&quot;&gt;Watch hover video&lt;/a&gt;&lt;br&gt;&lt;/div&gt;</description>
-        <pubDate>Tue, 27 Oct 2020 00:00:00 +0530</pubDate>
+        <pubDate>Sun, 25 Oct 2020 00:00:00 +0530</pubDate>
         <link>robotics portfolio/projects/quad</link>
         <guid isPermaLink="true">robotics portfolio/projects/quad</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Team Aerov</title>
-        <description>&lt;div style=&quot;text-align: center;&quot;&gt;
-        &lt;img src=&quot;/images/projects/aerov.png&quot; class=&quot;image&quot; style=&quot;max-width: 50%; vertical-align:middle;&quot; alt=&quot;&quot;&gt;
-&lt;/div&gt;
-&lt;h3&gt;About Team Aerov&lt;/h3&gt;
-&lt;p&gt; Team Aerov is a part of UMIC ( &lt;a href=&quot;https://www.umiciitb.com/&quot; target=&quot;blank&quot;&gt;Umesh Mashruwal Innovation
-                Cell&lt;/a&gt; ), IIT Bombay.
-        This team focuses on Aerial robots related competition in worldwide.
-        It has already participated in IARC Mission 7 and Barcelona Smart Drone challenge.
-        Currently, it is focusing on IARC Mission 9. The detailed problem statement for IARC Mission 9 can be found &lt;a
-                href=&quot;http://www.aerialroboticscompetition.org/&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;.
-        Current major tasks are to travel 3 miles of distance and perform the task of replacing the communication module
-        using the robotic arm on the drone &lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;My contribution : Mechatronics Subsystem&lt;/h3&gt;
-&lt;p&gt;My Current work is to design robotic arm with gripper for performing the tasks given in IARC Mission 9. I have made
-        models for it and now working on optimizing its weight&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;&lt;button class=&quot;button&quot; id=&quot;toggle&quot; onclick=&quot;toggle()&quot;&gt;SHOW CAD&lt;/button&gt;&lt;/div&gt;
-&lt;br&gt;
-&lt;embed id=&quot;cad&quot; style=&quot;display: none;&quot; type=&quot;text/html&quot; src=&quot;/assets/gripper.html&quot; class=&quot;image fit&quot; height=&quot;250&quot; allowfullscreen='true'&gt;
-
-&lt;script&gt;
-        function toggle() {
-                btn = document.getElementById('toggle');
-                cad = document.getElementById('cad')
-                if (cad.style.display == 'none') {
-                        cad.style.display = 'block'
-                        btn.innerHTML = 'HIDE CAD'
-                }
-                else {
-                        cad.style.display = 'none'
-                        btn.innerHTML = 'SHOW CAD'
-                }
-        }
-&lt;/script&gt;</description>
-        <pubDate>Mon, 26 Oct 2020 00:00:00 +0530</pubDate>
-        <link>robotics portfolio/projects/aerov</link>
-        <guid isPermaLink="true">robotics portfolio/projects/aerov</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Team Stride</title>
-        <description></description>
-        <pubDate>Sun, 25 Oct 2020 00:00:00 +0530</pubDate>
-        <link>robotics portfolio/projects/stride</link>
-        <guid isPermaLink="true">robotics portfolio/projects/stride</guid>
         
         
       </item>
@@ -456,36 +482,6 @@ you can watch the full video of the model that I made... &lt;br&gt;
         <pubDate>Fri, 23 Oct 2020 00:00:00 +0530</pubDate>
         <link>robotics portfolio/projects/cozmo</link>
         <guid isPermaLink="true">robotics portfolio/projects/cozmo</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>AR Glasses</title>
-        <description>&lt;header&gt;
-    &lt;h3&gt;AR Glasses based on Arduino and Optics&lt;/h3&gt;
-    &lt;p&gt;Hobby Project | Jun '19&lt;/p&gt;
-&lt;/header&gt;
-&lt;p&gt;
-    Made an AR device using principals of optics. This device can be usefull for bikers while navigating
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;
-    &lt;h3&gt;3D printing&lt;/h3&gt;
-    &lt;div class=&quot;row uniform 50%&quot;&gt;
-        &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ar/ar1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-        &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ar/ar2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Final device&lt;/h3&gt;
-&lt;div class=&quot;row uniform 50%&quot;&gt;
-    &lt;div class=&quot;6u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/images/projects/ar/ar3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;</description>
-        <pubDate>Thu, 22 Oct 2020 00:00:00 +0530</pubDate>
-        <link>robotics portfolio/projects/ar</link>
-        <guid isPermaLink="true">robotics portfolio/projects/ar</guid>
         
         
       </item>

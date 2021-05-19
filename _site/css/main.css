@@ -508,7 +508,7 @@ input.disabled[type="submit"], input[type="submit"]:disabled, input.disabled[typ
 /* Wrapper */
 .wrapper { padding: 2em 0 0.1em 0 ; }
 
-.wrapper > .inner { width: 75em; margin: 0 auto; }
+.wrapper > .inner { width: 55em; margin: 0 auto; }
 
 @media screen and (max-width: 1280px) { .wrapper > .inner { width: 90%; } }
 
