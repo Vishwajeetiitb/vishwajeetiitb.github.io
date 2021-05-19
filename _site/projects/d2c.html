@@ -10,13 +10,14 @@
   <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Flipkart Robotcs Challenge</title>
-  <meta name="description" content="About Flipkart Grid 2.0 - Robotcs ChallengeDuring the pandemic period, Flipkart conducted an interesting competition for robotics enthusiasts under Flipkart ...">
+  <title>Flipkart Grid 2.0</title>
+  <meta name="description" content="    National Finalists of Flipkart Grid 2.0!!!!    ">
   <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="canonical" href="robotics portfolio/projects/d2c">
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/overlay.css" />
   <link rel="stylesheet" href="/css/bar.css" />
+  <link rel="stylesheet" href="/css/tab.css" />
   <link rel="stylesheet" href="/css/vcard.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 <link rel="icon" href="/images/title.png"  style="img {border-radius: 50%;}" type="image/icon type">
@@ -86,76 +87,158 @@
       <article id="main">
 
   <header>
-    <h2>Flipkart Robotcs Challenge</h2>
+    <h2>Flipkart Grid 2.0</h2>
     <!-- <p></p> -->
   </header>
 
   <section class="wrapper">
     <div class="inner">
-      <h3>About Flipkart Grid 2.0 - Robotcs Challenge</h3>
-<p>During the pandemic period, Flipkart conducted an interesting competition for robotics enthusiasts under Flipkart
-    Grid 2.0. There were three problem statements :
-<ul>
-    <li>Intelligent Picking</li>
-    <li>Autonomous Indoor Drone</li>
-    <li>Autonomous Stair Climbing Robot.</li>
-</ul>
-We chose the Autonomous Indoor Drone Challenge in which we had to propose the solution of drone which will be able to
-carry 2kgs of load
-and able to navigate through a series of windows randomly placed in a room <br> <br>
-<div style="text-align: center;">
-    <img src="/images/projects/d2c/ps.png" class="image" style="max-width:100%;" alt=""><br><br>
-    <a href="/assets/d2c_ps.pdf" class="button" target="blank">View Problem statement</a>
+      <div style="text-align: center;">
+    <h4>National Finalists of Flipkart Grid 2.0!!!!</h4>
+    <img src="/images/projects/d2c/trophy.png" class="image" style="max-width:20%;" alt="">
 </div>
-</p>
-<hr>
-<h3>Our Solution</h3>
-<p>
-    I designed the cad model consisting of depth camera (for navigation and localization), computation unit (Rpi4) and
-    bucket (to carry payload).
-    The design was based on the contrains due to size of window through which it has to pass. <br>
-    Here are some images of the design:
-<div style="text-align: center;">
-    <img src="/images/projects/d2c.jpg" class="image" style="max-width:50%;" alt="">
-</div>
-<div class="row uniform 50%">
-    <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c1.jpg" alt="" /></span></div>
-    <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c2.jpg" alt="" /></span></div>
-    <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c3.jpg" alt="" /></span></div>
-</div>
-</p>
-<p>
-    After design was ready, our next step was to perform stability and structural analysis on frame of quadcopter in
-    order to ensure that it will sustain
-    in given conditions. At the same time team has to make a simulation of quad performing the tasks given problem
-    statement.
-    <br> I performed stress analysis and modal analysis on the frame using ANSYS simulation software using FEA model
 
+<h3>Autonomous Indoor Drone</h3>
 <div class="row uniform 50%">
-    <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c4.png" alt="" /></span></div>
-    <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c5.gif" alt="" /></span></div>
-    <div class="4u"><span class="image fit"><img src="/images/projects/d2c/d2c6.PNG" alt="" /></span></div>
+    <div class="6u"><span class="image fit"><img src="/images/projects/d2c/cad.png" alt="" /></span></div>
+    <div class="6u"><span class="image fit"><img src="/images/projects/d2c/simcad.png" alt="" /></span></div>
 </div>
 <br>
-<div style="text-align: center;"><button class="button" id="toggle" onclick="toggle()">SHOW CAD</button></div>
-<br>
+
+<h3>Abstract</h3>
+<p>Drones have recently garnered a lot of attention in all sorts of domains including supply chain. While autonomous drones have achieved decent maturity in outdoor environments, the conventional drones still struggle to perform in an indoor environment such as a warehouse. The main reason for this comes from the fact that in outdoor environments, drones could rely on global navigation systems such as GPS for their position and velocity estimates. However when it comes to an indoor environment there is a lot of scope of innovation of sensors and processing.</p>
+
+<H3>Problem Statement:</H3>
+<ol>
+    <b><li><h4>Objective</h4></li></b>
+    <ul>
+        <li>The objective of the problem statement is to come up with an autonomous drone which is capable to travel along a predefined trajectory</li>
+        <li>The drone should be able to course correct the trajectory to be able to achieve objectives such as crossing through some square frames (gate) or avoiding obstacles in its path</li>
+        <li>Parameters : 
+            <ol>
+                <li>Multi-rotor drone</li>
+                <li>Minimum payload : 2 Kg</li>
+                <li>Navigate in the aisle width of 5000mm</li>
+                <li>Autopilot, PID controlled & obstacle avoidance features</li>
+            </ol>
+        </li>
+    </ul>
+    <b><li><h4>Trajectory Specification:</h4></li></b>
+    <ul>
+        <li>The drone will travel along a straight aisle.</li>
+        <li>The aisle will have 15 gates which the drone has to pass through.</li>
+        <li>The gates can be placed anywhere in the aisle but will stay perpendicular to the aisle.</li>
+    </ul>
+
+    <b><li><h4>Gate Specification:</h4></li></b>
+    <ul>
+        <li>The gate will be a rectangular frame 550 x 1000 mm ( L x B )</li>
+        <li>The gate will be mounted on a frame at the height of 3000mm</li><br>
+        <div style="text-align: center;">
+            <img src="/images/projects/d2c/ps.png" class="image" style="max-width:100%;" alt="">
+        </div>
+    </ul>
+    
+</ol>
+
+
+<ul class="tab actions fit">
+    <li><button class="tablinks active  button fit" id="One">Mechanical</button></li>
+    <li><button class="tablinks button fit" id="Two">Controls</button></li>
+    <li><button class="tablinks button fit" id="Three">ML and pathplaning</button></li>
+</ul>
+
+<div id="One" class="tabcontent">
+    <div class="row uniform 50%">
+        <div class="6u"><span class="image fit"> My primary contribution lies here. I was responsible for designing the frame and performing structural as well as Dynamic analysis. <br>
+            CAD is designed in <b>SolidWorks</b> and Analysis was done in <b>Ansys</b>. <br>
+        A strong and sturdy carbon-fibre frame is chosen which is well capable of handling the stresses encountered during the mission
+        
+        The Centre of Mass lies below the plane of rotors. This provides inherent stability to the quadrotor. Being a uniform gravity environment, the quadrotor is an inherently Neutrally Stable System. The flight control algorithm ensures further stability of the system.</span></div>
+        <div class="6u"><span class="image fit"><img src="/images/projects/d2c/d2c2.jpg" alt="" /></span></div>
+    </div>
+
+
+    <div style="text-align: center;"><button class="button" id="toggle" onclick="toggle()">SHOW CAD</button></div><br>
 <div id="cad" style="text-align: center; display: none;">
     <embed type="text/html" src="/assets/d2c.html" class="image fit" height="250">
     <!-- <iframe src="https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview" class="image" style="max-width: 100%;" title="Iframe Example" frameborder="0"></iframe> -->
 </div>
 
-</p>
-<hr />
-<p>
+<h3>structure Analysis</h3>
+Material : Thornel MAT VMA (carbon fiber), maximum stress capability : 1.4e+09 Pa (N/m2) <br>
+Analysis: Based on Von Mises yield criteria <br> <br>
+<div class="row uniform 50%">
+    <div class="6u"><span class="image fit"><img src="/images/projects/d2c/d2c6.PNG" alt="" />
+        <h4 style="text-align: center;">With Payload</h4>
+        <ul>
+            <li>Maximum stress on arms of model during flight is : 4.07e+08 Pa (N/m2)</li>
+            <li>Material’s yield stress is 3.4 the maximum stress experienced by it, hence frame will sustain</li>
+        </ul>
+    </span></div>
+    <div class="6u"><span class="image fit"><img src="/images/projects/d2c/d2c5.gif" alt="" />
+        <h4 style="text-align: center;">Without Payload</h4>
+        <ul>
+            <li>Maximum stress on arms of model during flight is : 4.019e+08 Pa (N/m2)</li>
+            <li>Material’s yield stress is 3.5 the maximum stress experienced by it, hence frame will sustain</li>
+        </ul>
+    </span></div>
+</div>
+<h3>Modal (Vibration) Analysis</h3>
+Variation of displacement amplitude with different exciting frequencies for our quadrotor <br> <br>
+<div style="text-align: center;">
+    <img src="/images/projects/d2c/vibration.PNG" class="image" style="max-width:100%;" alt="">
+</div>
+<hr />  
+</div>
 
-<h3>Current Status of project</h3>
-We cracked the simulation Challenge and now we are in national finale!!! only 3 teams got selected for finale. Our next
-target is to develope actual prototype
-</p>
+<div id="Two" class="tabcontent">
+    We are using PX4 Software-In-The-Loop
+     (SITL), which is a very important tool to model the behaviour of the quadrotor in a simulated world.
+    <h3>Decision Making:</h3>
+    <div class="row uniform 50%">
+        <div class="6u"><span class="image fit"><img src="/images/projects/d2c/decision.png"  alt="" /></span></div>
+        <div class="6u"><span class="image fit">
+            <ul>
+                <br>
+                <li>Perception node maintains a python dictionary of positions of all the 15 frames</li>
+                <li>If the quadrotor has passed through i th frame, and the location of i+1 th frame is still unknown, then it begins to perform a left-right search manoeuvre</li>
+                <li>If the position of i+1 th frame is known, then the path planning node generates a optimal path avoiding all obstacles                </li>
+                <li>This path is fed to the FCU via the rostopic /mavros/setpoint_raw/position</li>
+            </ul>
+        </span></div>
+    </div>
+    <hr>
+</div>
+<div id="Three" class="tabcontent">
+    <h4>Frame Detection</h4>
+    <div class="row uniform 50%">
+        <div class="6u"><span class="image fit">
+            <br>
+            camera feed in the bottom right. <br> <br>
+            The frame detection algorithm first detects the corners and then applies matrix transformations to obtain the locations of the frames. <br> <br>
+            The depth camera feed is used to correctly distinguish between frames that appear to be intersecting. <br>
+        </span></div>
+        <div class="6u"><span class="image fit"><img src="/images/projects/d2c/ml.jpg" alt="" /></span></div>
+    </div>
+
+    <h4>Localisation</h4>
+    ORBSLAM2 is being used for localisation. <br><br> It extracts key features form the environment and fuses their relative variation with the IMU data to estimate the pose.
+The arrow in the point cloud shows the estimated position and orientation of the quadrotor. <br><br>
+The top right terminal is showing actual pose by mavros and bottom right is pose measured by integrating SLAM and lidar. We see that they are nearly equal. <br> <br>
+<div class="12u"><span class="image fit"><img src="/images/projects/d2c/localization.jpg" alt="" /></span></div>
+ORB SLAM is most efficient module for indoor localisation and consists of robust feature detection and matching algorithms. Moreover fusing the LIDAR data make it much more accurate. The accuracy can be further improved in real world testing, in which more features are available compared to a simulated world.
+
+
+<hr>
+
+</div>
+
 
 <div id="" style="text-align: center ;">
-    <h4>Simulation Video</h4>
-    <iframe src="https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview" class="image" style="max-width: 100%;" title="Iframe Example" frameborder="0" allowfullscreen></iframe>
+    <h4>Our entry for Flipkart Grid 2.0 Nation Finale submission:
+    </h4>
+    <iframe src="https://drive.google.com/file/d/1s3DOboV1j0a23tstK6038GusZBrJ3ufm/preview" class="image" style="width: 100%; height: 25em;" title="Iframe Example" frameborder="0" allowfullscreen></iframe>
 </div>
 <script>
     function toggle() {
@@ -174,6 +257,30 @@ target is to develope actual prototype
     }
 </script>
 
+<script>
+
+    const buttonElement = document.querySelectorAll('.tablinks');
+    const tabContent = document.querySelectorAll(".tabcontent");
+    
+    tabContent[0].style.display = "block";
+    
+    buttonElement.forEach(function (i) {
+        i.addEventListener('click', function (event) {
+    
+            for (let x = 0; x < buttonElement.length; x++) {
+                if (event.target.id == buttonElement[x].id) {
+                    buttonElement[x].className = buttonElement[x].className.replace(" active", "");
+                    tabContent[x].style.display = "block";
+                    event.currentTarget.className += " active";
+                } else {
+                    tabContent[x].style.display = "none";
+                    buttonElement[x].className = buttonElement[x].className.replace(" active", "");
+                }
+            }
+            
+        });
+    });
+    </script>
     </div>
   </section>
 

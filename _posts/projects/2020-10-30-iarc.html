@@ -1,0 +1,186 @@
+---
+layout: page
+title: IARC Mission 9.0
+permalink: /projects/iarc
+intro : IARC Mission 9.0
+subintro : Mid-air drone deployment, performing operations with end effector attached to the drone
+img_path : /images/projects/iarc.jpg
+style: style6
+---
+
+        <div style="text-align: center;">
+                <h4>Winners of International Aerial Robotics Challenge!!!!</h4>
+                <img src="/images/projects/iarc/win3.gif" class="image" style="max-width:35%;" alt="">
+            </div>
+</p>
+
+
+
+<h3>About Team Aerov</h3>
+<div style="text-align: center;">
+        <img src="/images/projects/aerov.png" class="image" style="max-width: 50%; vertical-align:middle;" alt="">
+</div>
+<p> I am working in Team Aerove. Team Aerove is a part of UMIC ( <a href="https://www.umiciitb.com/" target="blank">Umesh Mashruwal Innovation
+                Cell</a> ), Student Technical Team at IIT Bombay.
+        The team focuses on Aerial robots related competition in worldwide.
+        It has already participated in IARC Mission 7 and Barcelona Smart Drone challenge.
+        Currently, it finished wining IARC Mission 9. 
+<hr />
+<h3>About IARC </h3>
+<p>The Association for Unmanned Vehicle Systems International Foundation's International Aerial Robotics Competition is the longest-running collegiate aerial robotics challenge in the world, having celebrated its quarter-century anniversary in 2016. This time, IARC Mission was based on simulat.
+        The detailed problem statement for IARC Mission 9 can be found <a
+        href="http://www.aerialroboticscompetition.org/" target="blank">here</a>. Mission includes
+        Mid-air drone deployment, performing operations with end effector attached to the droneion </p>
+<hr>
+<h3>Project Description</h3>
+<h4>The Idea</h4>
+<p>
+        For tackling the IARC 2020 Challenge, We decided to go with a Mothership-Daughtership configuration, which would increase effectiveness and save time. A key constraint governing our strategy of module replacement is time constraint. 
+        The major drawback of using a single drone is that it decreases the time available for communication module replacement. Therefore a mother-daughter drone configuration will buy us the time of the entire return flight. Also, the weight of the Mothership decreases during return flight which allows it to achieve a higher maximum speed.  The mothership carries the daughtership up to the drop point, and then circles back to the start point. Meanwhile, 
+        the daughtership undertakes the arduous task of replacing the communication module on on the swaying mast
+</p>
+
+
+<ul class="tab actions fit">
+        <li><button class="tablinks active  button fit" id="One">Mechanical</button></li>
+        <li><button class="tablinks button fit" id="Two">Controls</button></li>
+        <li><button class="tablinks button fit" id="Three">Localisation and ML</button></li>
+</ul>
+
+<div id="One" class="tabcontent">
+        <div style="text-align: center;">
+                <h3>The Mothership</h3>
+                <img src="/images/projects/iarc/mother.jpeg" class="image" style="max-width:50%;" alt="">
+        </div>
+        <p>The mothership is the primary drone that carries the secondary daughter drone. It is an autonomous 25 Kg hexacopter with an integral cage-like structure. The mothership will deploy the daughter drone at the mast and continue its way homeward to complete the mission in 9 minutes.</p>
+        <h4>Key features</h4>
+        <ul>
+                <li>Equipped with six powerful MN1010 motors to carry the heavy daughter drone</li>
+                <li>Powered by four 16000 mAh LIPO batteries to achieve a flight time of 11 min</li>
+                <li>Equipped with a launchpad for the mid-air take-off of the daughter drone</li>
+                <li>It has a cage-like structure to reduce weight while maintaining strengthTry it now!</li>
+        </ul>
+        <div style="text-align: center;">
+                <h3>The Daughtership</h3>
+                <img src="/images/projects/iarc/mother.jpeg" class="image" style="max-width:50%;" alt="">
+        </div>
+        <p>The daughter drone, a 25 kg autonomous coaxial-octocopter capable of launching in mid-air, is meant to replace the communication module. It is equipped with a Pixhawk 4 for controlling the drone during flight. Intel Realsense D435 for obtaining live video feed of the surroundings, Intel NUC 5i5RYH onboard computation, Here3 GPS for localisation, and 7 DOF robotic arm for gripping the mast and replacing the module. 
+                <br>
+                Further, the daughter drone is enabled with an intelligent system that removes the rigid connection between the drone and the replacement mechanism, leaving them connected by ropes. So, after grabbing the mast, the mast’s motion isn’t transferred to the drone.
+                The daughter drone has an in-built mechanism which utilises gears and chains to facilitate the motion of the replacement mechanism and provide it extra accuracy.
+                The frame of the drone is built so as to reduce drag and provide better aerodynamic efficiency.</p>
+                <h4>Key features</h4>
+                <ul>
+                        <li>It has a stretched-X frame so that the drone can go closer to the mast while keeping the COM close to the centre of the frame.</li>
+                        <li>Reducing size & weight using coaxial-configuration and a 3-blade propeller</li>
+                        <li>The frame is attached with the replacement mechanism to provide it with 3 degrees of transnational motions.</li>
+                </ul>
+        
+
+        <div style="text-align: center;">
+        <h3>The Gripping Mechanism </h3>
+        <img src="/images/projects/iarc/mechanism.jpeg" class="image" style="max-width:50%;" alt="">
+        </div>
+        <br>
+                <h4>Maneuvers for module replacement</h4>
+                <ol>
+                        <li>The first step comprises lowering the gripper and grabbing the swaying mast, thus ceasing any relative motion between the gripping mechanism and the mast.</li>
+                        <li>Next, the communication module is extracted from the mast by employing a specially designed gripper which will slide onto the module’s antenna and pull it out using a linear actuator. As soon as the module loses contact with the guiding rods, it will fall automatically.                        </li>
+                        <li>Now the replacement module can be slid into place, completing the process of module replacement.</li>
+                </ol>
+        <hr>
+</div>
+
+<div id="Two" class="tabcontent">
+        <p style="text-align: center;">Controls Subsystem deals with preparing the simulation environment, autonomous navigation of multiple UAVs using PX4-SITL, mid-aid drone deployment, joint controllers for replacement mechanism, and tuning of flight controller parameters and PID gains.
+                GzWeb, Gazebo's WebGL client provides front-end graphical interface to the gzserver and interactive visualisation of the simulation in your web browser. ngrok is used for tunneling the simulation from local host to the public internet. A real time Firebase database is used to update the slider values.  </p> 
+        <div style="text-align: center;">
+                <h3>Gazebo Simulation Environment</h3>
+                <img src="/images/projects/iarc/gazebo.png" class="image" style="max-width:50%;" alt="">
+        </div>
+        <p>We have used Gazebo 9 as our primary 3D simulator backed by ROS Melodic. Gazebo utilizes the high-performance physics engine ODE (Open Dynamics Engine). It provides a realistic rendering of environments, including high-quality lighting, shadows, and textures.</p>
+        `
+        
+        <div style="text-align: center;">
+                <h3>PX4 SITL Flight Stack</h3>
+                <img src="/images/projects/iarc/sitl.gif" class="image" style="max-width:50%;" alt="">
+        </div>
+        <p>The PX4 Software in the loop (SITL) package formed our drone control's backbone and was used to execute the mission trajectories and other complicated manoeuvres. This package mimics the performance of the flight controller in simulation, hence giving close to real results.
+                Custom trajectories are defined and passed to PX4 using position and velocity setpoints. The trajectories were optimized and smoothed out by our flight controller for minimum jerk along the path. </p>
+
+
+        <div style="text-align: center;">
+                <h3>Joint Controllers using ROS</h3>
+                <img src="/images/projects/iarc/module-replacement.gif" class="image" style="max-width:50%;" alt="">
+        </div>
+        <p>We utilised joint-transmission controllers in ROS to control the actuators of the module replacement mechanism with high precision.
+                The quad mimics the mast motion with varying sea states using the ML feed to align the gripper mechanism with the module.
+                Further, the end-effector's fine alignment is done using PID tuning of the alignment mechanism to capture the mast's motion accurately.  The team did the tuning based on the ML detection and the actuator specifications.
+                Once aligned to the required proximity, a sequence of actions performed by the end-effector mechanism replaces the communication module.</p>
+<hr>
+        </div>
+
+<div id="Three" class="tabcontent">
+<h2>Localisation</h2>
+<p style="text-align: center;">Localisation is the method of localising oneself in an environment with respect to the initial position. One of the most popular methods of Localisation is SLAM (Simultaneous Localisation and Mapping).
+        Visual SLAM extracts features from the environment to create a map and uses them to obtain the relative position. We have implemented ORB-SLAM2 for the localisation of the Daughter drone and RTK-GPS for the Mothership. </p> 
+
+<div style="text-align: center;">
+        <h3>ORB SLAM-2</h3>
+        <img src="/images/projects/iarc/orb.png " class="image" style="max-width:50%;" alt="">
+</div>
+<p><b> ORB-SLAM2</b> provides significantly more accurate results over Visual Odometry by eliminating errors of drift. The key feature of ORB-SLAM2 is that it uses the same features/image for localisation, mapping, and detecting loop closure. Loop closure enables us to create a local map as well as apply global bundle adjustment.
+        Camera used: R200 RGB-D camera. <br>
+        <b>RGB-D camera</b> provides more accurate results than Monocular as the scaling factor is obtained directly from a depth sensor.  It also performs faster than stereo camera configuration.
+        The FPS of the camera is 60. It maintains accuracy for a maximum drone speed of 1.5 m/s.</p>
+
+
+<div style="text-align: center;">
+        <h3>GPS-RTK</h3>
+        <img src="/images/projects/iarc/rtk.png" class="image" style="max-width:50%;" alt="">
+</div>
+<p>Real Time Kinematic is a technique used to increase the accuracy of GNSS positions using a fixed base station that wirelessly sends out correctional data to a moving receiver.The technique involves the measurement of the carrier phase of the satellite signal, which is then subject to some sophisticated statistical methods to align the phase of these signals to eliminate the majority of normal GPS type errors.
+        The key to achieving centimetre-level positioning accuracy with RTK is the use of the GPS carrier phase signals. Carrier phase measurements are like precise tape measures from the base and rover antennas to the satellites. In the receiver, carrier phase measurements are made with millimetre-precision.
+        RTK provides accuracy enhancements up to about 6-7 km from the base station</p>
+
+
+<h2>Machine Learning & Perception</h2>
+<div style="text-align: center;">
+        <h3>Mast Detection</h3>
+</div>
+<p>We used YOLOv4, which is a state-of-the-art object detection model to detect a target with high IOU(intersection over union). YOLOv4 uses new features like WRC, CSP, CmBN, SAT, Mish activation, Mosaic data augmentation, DropBlock regularization, and CIoU loss. It combines some of them to achieve state-of-the-art results: 43.5% AP (65.7% AP50) for the MS COCO dataset. These models are used to find the centre of the mast.</p>
+<div class="row uniform 50%">
+        <div class="6u"><span class="image fit"><img src="/images/projects/iarc/board.gif" alt="" /></span></div>
+        <div class="6u"><span class="image fit"><img src="/images/projects/iarc/module-new.gif" alt="" /></span></div>
+</div>
+
+<hr>
+
+</div>
+
+
+
+<script>
+
+const buttonElement = document.querySelectorAll('.tablinks');
+const tabContent = document.querySelectorAll(".tabcontent");
+
+tabContent[0].style.display = "block";
+
+buttonElement.forEach(function (i) {
+    i.addEventListener('click', function (event) {
+
+        for (let x = 0; x < buttonElement.length; x++) {
+            if (event.target.id == buttonElement[x].id) {
+                buttonElement[x].className = buttonElement[x].className.replace(" active", "");
+                tabContent[x].style.display = "block";
+                event.currentTarget.className += " active";
+            } else {
+                tabContent[x].style.display = "none";
+                buttonElement[x].className = buttonElement[x].className.replace(" active", "");
+            }
+        }
+        
+    });
+});
+</script>

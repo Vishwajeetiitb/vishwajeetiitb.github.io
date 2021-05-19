@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/overlay.css" />
   <link rel="stylesheet" href="/css/bar.css" />
+  <link rel="stylesheet" href="/css/tab.css" />
   <link rel="stylesheet" href="/css/vcard.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 <link rel="icon" href="/images/title.png"  style="img {border-radius: 50%;}" type="image/icon type">
@@ -105,50 +106,32 @@
 <p><span class="image right"><img src="/images/projects/pat/pat.gif" alt="" /></span></p>
 Patrolling means the act of walking or traveling around an area, at regular intervals, to protect or supervise it. Given a graph, the patrolling task refers to continuously visiting all the graph nodes to minimize the time lag between two visits. We have to design an automated patrolling system with multiple agents to monitor a given environment with nodes of interest of varying priorities. A group of students is working on the simulation part of this project, provided by the DRDO, India. They will do the hardware aspect of this project. This project's main objective is to prevent the innocent lives of many soldiers who are at the borders working at their top edge and died while patrolling manually. So, instead of them, an autonomous car will do this task and keep a keen observation of the enemies' movement.
 </p>
+<a href="/assets/multi_agent_patrolling_report.pdf" class="button " target="blank">Project Report</a>
 <br>
 <hr>
 <h3>My Learnings & Contribution till date:</h3>
 <p>
-    <li>Studied and tested various algorithms for multi-agent patrolling 
-        on the SUMO platform using research papers</li>
-        <div style="text-align: center;"><b>Following graphs are related to node visit time</b></div>
+    <li>Proposed a novel technique for Multi-Robot Patrolling using IoT devices for a secured, decentralised decision making and robust solution against device failures.
+    </li><br>
+    <li>Developed a local, reactive, decentralized algorithm (MRPP-IoT) to minimize Graph Idleness with IoT devices at Junctions as the decision-making units.
+    </li><br>
+    <li>Analyzed patrolling performance of MRPP-IoT algorithm based on an extensive and systematic set of simulations carried out on SUMO (a traffic simulator). 
+    </li><br>
+    <li>Comparison of the MRPP-IoT algorithm with two states of the art strategies - Conscientious Reactive as well as Reactive with Flags 2 [8] demonstrate the possibility of a decentralised solution for MRPP that maintains the uniformity of patrolling even during device failures.
+    </li><br>
+    <li>Applied Conscientious Reactive architecture with emergent coordination strategy for reducing idleness using Traci library in a realistic traffic simulator - Simulation of Urban MObility (SUMO)
+    </li><br>
+    <li>This project gave me an insight into Reinforcement Learning in my second year. Created an algorithm for decision making based on RL Techniques and tested it on platforms like MIT DeepTraffic Simulator and Unity ML-Agents. This algorithm helps in making decisions like accelerating, decelerating, left & right based on the surrounding.
+    </li><br>
+    <li>During my learning period, I applied the RL method using ROS and gazebo and simulated a self-balancing inverse pendulum, which learns to balance itself from previous experience
+    </li><br>
         <div class="row uniform 50%">
-            <div class="4u"><span class="image fit" style="text-align: center;"><img src="/images/projects/pat/cr1.png" alt="" /> patrolling with one car</span></div>
-            <div class="4u"><span class="image fit" style="text-align: center;"><img src="/images/projects/pat/cr6.png" alt="" />patrolling with six cars</span></div>
-            <div class="4u"><span class="image fit" style="text-align: center;"><img src="/images/projects/pat/cr10.png" alt="" />patrolling with ten cars</span></div>
+            <div class="6u"><span class="image fit" style="text-align: center;"><img src="/images/projects/pat/pat4.gif" alt="" /> Simulation in gazebo</span></div>
+            <div class="6u"><span class="image fit" style="text-align: center;"><img src="/images/projects/pat/pat5.jpg" alt="" />Results</span></div>
         </div>
 
 </p>
-<p>
-    <li>This project gave me an insight into Reinforcement Learning.
-        I created an algorithm for decision making based on RL Techniques and tested it on platforms like MIT
-        DeepTraffic Simulator and Unity ML-Agents.
-        This algorithm helps in making decisions like accelerating, decelerating, left & right based on the surrounding
-    </li>
-    <br>
-<div class="row uniform 50%">
-    <div class="6u"><span class="image fit"><img src="/images/projects/pat/pat2.jpg" alt="" /></span></div>
-    <div class="6u"><span class="image fit"><img src="/images/projects/pat/pat3.jpg" alt="" /></span></div>
-</div>
-<br>
-<li>Designed algorithm for path planning for the car at the junction of the road</li> <br>
-<li>During my learning period, I applied the RL method <b>using ROS and gazebo</b> and simulated a self-balancing
-    inverse pendulum,
-    which learns to balance itself from previous experience</li>
-<br>
-<div class="row uniform 50%">
-    <div class="6u"><span class="image fit"><img src="/images/projects/pat/pat4.gif" alt="" /></span></div>
-    <div class="6u"><span class="image fit"><img src="/images/projects/pat/pat5.jpg" alt="" /></span></div>
-</div>
-</p>
-<hr>
-<h3>Future Work:</h3>
-<p>
-    <li>Implementing patrolling algorithms on <b>IoT</b> platforms</li>
-    <li>Design the patrolling algorithm using Deep Q Network Reinforcement learning technique with GBLA architecture</li>
-    <li>Incorporate the effect of priority nodes in the map while maneuvering</li>
-    <li>Improve the results of Conscientious Reactive in case of larger number of cars in assymetrical grids.</li>
-</p>
+
     </div>
   </section>
 
